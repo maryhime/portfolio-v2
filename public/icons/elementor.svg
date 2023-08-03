@@ -1,0 +1,21 @@
+<svg width="100" height="101" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Elementor-Logo-Symbol-Pink 1" clip-path="url(#clip0_797_23368)">
+<g id="Clip path group">
+<mask id="mask0_797_23368" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="101">
+<g id="clip0">
+<path id="Vector" d="M100 0.5H0V100.5H100V0.5Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_797_23368)">
+<g id="Group">
+<path id="Vector_2" d="M50 0.5C22.383 0.5 0 22.883 0 50.5C0 78.1077 22.383 100.5 50 100.5C77.617 100.5 100 78.117 100 50.5C99.991 22.883 77.6077 0.5 50 0.5ZM37.5023 71.3265H29.1735V29.6645H37.5023V71.3265ZM70.8265 71.3265H45.831V62.9977H70.8265V71.3265ZM70.8265 54.6598H45.831V46.331H70.8265V54.6598ZM70.8265 37.9933H45.831V29.6645H70.8265V37.9933Z" fill="#FF7BE5"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_797_23368">
+<rect width="100" height="100" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

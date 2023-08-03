@@ -1,10 +1,15 @@
 import React, { Fragment } from 'react';
+import { RightLayout } from './layout/RightLayout';
+import { LeftLayout } from './layout/LeftLayout';
 
 const HomePage = () => {
   return (
-    <Fragment>
-      Starter Template for portfolio-v2
-    </Fragment>
+    <>
+      <div className='flex'>
+        <LeftLayout />
+        <RightLayout />
+      </div>
+    </>
   );
 }
 
