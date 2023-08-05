@@ -35,12 +35,10 @@ export default {
       '16': '16px',
       '8': '8px',
     },
-    height: {
-      'button': '45px',
-    },
+   
     borderRadius: {
       'none': '0',
-      'button': '5px',
+      'button': '10px',
       'card': '15px'
     },
     fontSize: {
@@ -64,7 +62,7 @@ export default {
         letterSpacing: '0.64px',
         fontWeight: '400',
       }],
-      'button': ['16px', {
+      'button': ['14px', {
         lineHeight: '26px',
         letterSpacing: '0.46px',
         fontWeight: '700',
@@ -90,7 +88,11 @@ export default {
       },
       boxShadow : {
         'card': '9px 11px 0px 0px rgba(192, 129, 193, 0.25)',
-      }
+        'side-bar': '0px 0px 23px 0px rgba(192, 129, 193, 0.15)',
+      },
+      height: {
+        'button': '45px',
+      },
     },
   },
   plugins: [],
