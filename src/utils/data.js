@@ -31,3 +31,77 @@ export const TOOLS = Object.freeze([
     icons : ['github.svg', 'notion.svg', 'adobe-premiere.svg', 'adobe-after-effects.svg']
   },
 ])
+
+export const WEB_DESIGN = Object.freeze([
+  {
+    title : 'Portfolio v.1',
+    desc : 'Landing Page Design and Development',
+    image : 'portfolio-v1.png',
+    link: 'https://mary-therese-caseria.vercel.app/'
+  },
+  {
+    title : 'Hypeburger',
+    desc : 'Landing Page Design and Development',
+    image : 'hypeburger.png',
+    link: 'https://hypeburger.vercel.app'
+    
+  },
+  {
+    title : 'Superare',
+    desc : 'Landing Page Design and Development',
+    image : 'Hyperare.png',
+    link: 'https://hypeburger.vercel.app'
+    
+  },
+  {
+    title : 'Recozy',
+    desc : 'Landing Page Design and Development',
+    image : 'recozy.png',
+    link: 'https://hypeburger.vercel.app'
+    
+  },
+  {
+    title : 'montrose sar',
+    desc : "wordpress development: elementor pro",
+    image : 'msar.png',
+    link: 'https://montrosesar.org/'
+    
+  },
+  {
+    title : 'NMS Creative Design',
+    desc : "Design & wordpress development: oxygen builder",
+    image : 'nmsdesign.png',
+    link : 'http://design.nmscreative.com/'
+    
+  },
+  {
+    title : 'Her Erotic Story',
+    desc : "Web app Design",
+    image : 'HES.png',
+    link : '#'
+    
+  },
+  {
+    title : 'So-cal ponds',
+    desc : "wordpress development: oxygen builder",
+    image : 'socalponds.png',
+    link : 'https://socalponds.com/'
+    
+  },
+  {
+    title : 'My Allied Health Academy',
+    desc : "Web app Design",
+    image : 'maha.png',
+    link : '#'
+    
+  },
+  {
+    title : 'Tribetxt',
+    desc : "Web app Design",
+    image : 'tribetxt.png',
+    link : '#'
+    
+  },
+ 
+
+])

@@ -11,9 +11,9 @@ export default {
     },
     screens: {
       'phone': '375px',
-      'phone-lg': '768px',
-      'tablet': '1024px',
-      'laptop': '1280px',
+      'phone-lg': '425px',
+      'tablet': '768px',
+      'laptop': '10240px',
       'laptop-lg': '1440px',
       'desktop': '1728px',
     },
@@ -67,6 +67,17 @@ export default {
         letterSpacing: '0.46px',
         fontWeight: '700',
       }],
+      'card-category': ['14px', {
+        lineHeight: '24px',
+        letterSpacing: '0.46px',
+        fontWeight: '500',
+      }],
+      'card': ['24px', {
+        lineHeight: '24px',
+        letterSpacing: '0.46px',
+        fontWeight: '700',
+      }],
+
     },
     extend: {
       colors: {
