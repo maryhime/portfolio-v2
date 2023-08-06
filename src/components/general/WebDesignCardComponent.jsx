@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { IconButtonComponent } from './IconButtonComponent'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 export const WebDesignCardComponent = ({ title, category, image, link }) => {
   return (
-    <div className="rounded-card border border-primary-500 bg-background-white shadow-card flex flex-col gap-48 pt-24 hover:text-primary-500 text-heading ">
+    <Fragment>
       <div className="px-24 flex flex-row gap-24 w-full justify-between">
         <div className="flex flex-col gap-8 ">
           <h4 className='text-card   uppercase'>
@@ -14,7 +14,7 @@ export const WebDesignCardComponent = ({ title, category, image, link }) => {
             {category}
           </p>
         </div>
-        <a href={link}>
+        <a href={link} target='_blank' rel='noreferrer'>
           <IconButtonComponent icon={faChevronRight} />
         </a>
       </div>
@@ -23,6 +23,6 @@ export const WebDesignCardComponent = ({ title, category, image, link }) => {
       </div>
 
 
-    </div>
+    </Fragment>
   )
 }

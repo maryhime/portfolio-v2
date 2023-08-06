@@ -46,18 +46,15 @@ export const NavBarComponent = () => {
           </div>
           <div className="flex flex-row gap-[20px] justify-center items-center align-middle">
             {value.contacts.map((icons, index) =>
-           
-                <img key={index} src={`icons/${icons}`} className='w-[24px] h-[24px]' />
-              
 
-
+              <>
+                <a href={icons.link} target='_blank' rel='noreferrer'>
+                  <img key={index} src={`icons/${icons.icon}`} className='w-[24px] h-[24px]' />
+                </a>
+              </>
             )}
 
           </div>
-
-
-
-
         </div>
       )}
     </Fragment>
