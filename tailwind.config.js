@@ -13,7 +13,7 @@ export default {
       'phone': '375px',
       'phone-lg': '425px',
       'tablet': '768px',
-      'laptop': '10240px',
+      'laptop': '1024px',
       'laptop-lg': '1440px',
       'desktop': '1728px',
     },
@@ -47,6 +47,12 @@ export default {
         letterSpacing: 'auto',
         fontWeight: '700',
       }],
+      'title-tablet': ['50px', {
+        lineHeight: 'normal',
+        letterSpacing: 'auto',
+        fontWeight: '700',
+      }],
+
       'tools-card': ['32px', {
         lineHeight: 'normal',
         letterSpacing: 'auto',
@@ -58,6 +64,11 @@ export default {
         fontWeight: '500',
       }],
       'body': ['16', {
+        lineHeight: 'normal',
+        letterSpacing: '0.64px',
+        fontWeight: '400',
+      }],
+      'body-tab': ['18', {
         lineHeight: 'normal',
         letterSpacing: '0.64px',
         fontWeight: '400',

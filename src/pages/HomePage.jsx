@@ -4,12 +4,12 @@ import { LeftLayout } from './layout/LeftLayout';
 
 const HomePage = () => {
   return (
-    <>
-      <div className='flex'>
+      <div className='flex flex-col laptop:flex-row'>
+      
         <LeftLayout />
         <RightLayout />
       </div>
-    </>
+
   );
 }
 

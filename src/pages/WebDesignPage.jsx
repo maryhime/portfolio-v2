@@ -7,10 +7,10 @@ import { CardContainerComponent } from '../components/general/CardContainerCompo
 
 const WebDesignPage = () => {
   return (
-    <div className="flex flex-col phone-lg:flex-row gap-64  w-full ">
+    <div className="flex flex-col phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 w-full ">
       <div className='flex flex-col gap-64 w-full '>
         <MainHeaderComponent title={'Web Design & Development'} subtitle={'Website Pages and applications that I have created during the course of my career and free time.'} />
-        <div className="tablet:flex tablet:flex-col tablet:gap-48 hidden">
+        <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden">
           {WEB_DESIGN.slice(0, 5).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
@@ -18,19 +18,17 @@ const WebDesignPage = () => {
 
           )}
         </div>
-        <div className="grid grid-cols-1 phone-lg:grid-cols-2 gap-24 tablet:hidden">
+        <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
           {WEB_DESIGN.map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
             </CardContainerComponent>
-
           )}
         </div>
 
       </div>
-      <div className=" hidden tablet:flex tablet:flex-col tablet:gap-48 w-full">
+      <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 w-full">
         {WEB_DESIGN.slice(5, 10).map((value, index) =>
-
           <CardContainerComponent key={index}>
             <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
           </CardContainerComponent>
