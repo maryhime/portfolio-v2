@@ -16,7 +16,7 @@ export const NavBarComponent = () => {
 
         {USER_INFO.map((value, index) =>
 
-          <div key={index} className='bg-white p-24 desktop:p-48 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter w-[80%] h-full desktop:h-[80%]'>
+          <div key={index} className='bg-white p-24 desktop:p-48 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter laptop:w-[85%] desktop:w-[80%] h-full desktop:h-[80%]'>
 
             <div className="flex flex-col gap-24">
               <div className=" flex justify-center align-middle desktop:w-full laptop:h-[150px] desktop:h-auto ">

@@ -20,7 +20,7 @@ const WebDesignPage = () => {
         </div>
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
-          {WEB_DESIGN.slice(0, 5).map((value, index) =>
+          {WEB_DESIGN.slice(0, 6).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
             </CardContainerComponent>
@@ -39,7 +39,7 @@ const WebDesignPage = () => {
       </div>
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
-        {WEB_DESIGN.slice(5, 10).map((value, index) =>
+        {WEB_DESIGN.slice(6, 13).map((value, index) =>
           <CardContainerComponent key={index}>
             <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
           </CardContainerComponent>
