@@ -4,7 +4,7 @@ import { LeftLayout } from './layout/LeftLayout';
 
 const HomePage = () => {
   return (
-      <div className='flex flex-col laptop:flex-row'>
+      <div className='flex flex-col laptop:flex-row '>
       
         <LeftLayout />
         <RightLayout />

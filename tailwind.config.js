@@ -42,8 +42,9 @@ export default {
       'card': '15px'
     },
     fontSize: {
+
       'title': ['40px', {
-        lineHeight: 'normal',
+        lineHeight: '68px',
         letterSpacing: 'auto',
         fontWeight: '700',
       }],
@@ -63,8 +64,8 @@ export default {
         letterSpacing: '0.56px',
         fontWeight: '500',
       }],
-      'body': ['16', {
-        lineHeight: 'normal',
+      'body': ['16px', {
+        lineHeight: '27px',
         letterSpacing: '0.64px',
         fontWeight: '400',
       }],

@@ -56,6 +56,24 @@ export const TOOLS = Object.freeze([
 
 export const WEB_DESIGN = Object.freeze([
   {
+    title: 'Starbugs',
+    desc: 'Landing Page Design',
+    image: 'starbugs.png',
+    link: '#'
+  },
+  {
+    title: 'Miron Digital',
+    desc: 'Landing Page Design',
+    image: 'mirondigital.png',
+    link: '#'
+  },
+  {
+    title: 'Terra And Ember',
+    desc: 'Landing Page Design',
+    image: 'terraAndember.png',
+    link: '#'
+  },
+  {
     title: 'Portfolio v.1',
     desc: 'Landing Page Design and Development',
     image: 'portfolio-v1.png',
@@ -113,7 +131,7 @@ export const WEB_DESIGN = Object.freeze([
   {
     title: 'My Allied Health Academy',
     desc: "Web app Design",
-    image: 'maha.png',
+    image: 'MAHA.png',
     link: '#'
 
   },

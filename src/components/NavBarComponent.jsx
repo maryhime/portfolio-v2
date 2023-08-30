@@ -9,7 +9,6 @@ export const NavBarComponent = () => {
 
   return (
     <Fragment>
-
         <div className="w-full flex flex-row justify-between laptop:hidden  items-center">
           <img className='w-[130px]' src="images/logo-nav.svg" alt="" />
           <FontAwesomeIcon icon={faBars} size="xl" style={{color: "#591863",}} />
@@ -17,7 +16,7 @@ export const NavBarComponent = () => {
 
         {USER_INFO.map((value, index) =>
 
-          <div key={index} className='bg-white p-24 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter w-full '>
+          <div key={index} className='bg-white p-24 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter w-[80%] '>
 
             <div className="flex flex-col gap-24">
               <div className=" flex justify-center align-middle">
@@ -34,7 +33,6 @@ export const NavBarComponent = () => {
                 <p className='text-body text-body-text 
             '>
                   A UI/UX Designer in Baguio City.
-
                   I create delightful experiences with empathy for users.
                 </p>
 

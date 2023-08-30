@@ -8,9 +8,9 @@ import { CardContainerComponent } from '../components/general/CardContainerCompo
 const WebDesignPage = () => {
   return (
     <div className="flex flex-col phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 w-full ">
-      <div className='flex flex-col gap-64 w-full '>
+      <div className='flex flex-col gap-64 '>
         <MainHeaderComponent title={'Web Design & Development'} subtitle={'Website Pages and applications that I have created during the course of my career and free time.'} />
-        <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden">
+        <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
           {WEB_DESIGN.slice(0, 5).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
@@ -18,6 +18,16 @@ const WebDesignPage = () => {
 
           )}
         </div>
+        {/* laptop */}
+        <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
+          {WEB_DESIGN.slice(0, 5).map((value, index) =>
+            <CardContainerComponent key={index}>
+              <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
+            </CardContainerComponent>
+
+          )}
+        </div>
+        {/* mobile */}
         <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
           {WEB_DESIGN.map((value, index) =>
             <CardContainerComponent key={index}>
@@ -27,8 +37,25 @@ const WebDesignPage = () => {
         </div>
 
       </div>
-      <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 w-full">
+      {/* laptop */}
+      <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
         {WEB_DESIGN.slice(5, 10).map((value, index) =>
+          <CardContainerComponent key={index}>
+            <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
+          </CardContainerComponent>
+        )}
+      </div>
+
+      {/* desktop */}
+      <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
+        {WEB_DESIGN.slice(4, 9).map((value, index) =>
+          <CardContainerComponent key={index}>
+            <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
+          </CardContainerComponent>
+        )}
+      </div>
+      <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
+        {WEB_DESIGN.slice(9, 13).map((value, index) =>
           <CardContainerComponent key={index}>
             <WebDesignCardComponent title={value.title} category={value.desc} image={value.image} link={value.link} />
           </CardContainerComponent>
