@@ -142,6 +142,42 @@ export const WEB_DESIGN = Object.freeze([
     link: '#'
 
   },
+])
 
-
+export const CASE_STUDIES = Object.freeze([
+  {
+    title: 'To Do Organizer App',
+    category: "Mobile app",
+    desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
+    image: 'placeholder.svg',
+    link: '#'
+  },
+  {
+    title: 'Travel App',
+    category: "Mobile app",
+    desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
+    image: 'placeholder.svg',
+    link: '#'
+  },
+  {
+    title: 'Learning Management System',
+    category: "Web app",
+    desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
+    image: 'placeholder.svg',
+    link: '#'
+  },
+  {
+    title: 'To Do Organizer App',
+    category: "Mobile",
+    desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
+    image: 'placeholder.svg',
+    link: '#'
+  },
+  {
+    title: 'Medical Record System',
+    category: "Web app",
+    desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
+    image: 'placeholder.svg',
+    link: '#'
+  },
 ])
