@@ -16,11 +16,11 @@ export const NavBarComponent = () => {
 
         {USER_INFO.map((value, index) =>
 
-          <div key={index} className='bg-white p-48 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter w-[80%] h-[80%]'>
+          <div key={index} className='bg-white p-24 desktop:p-48 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter w-[80%] h-full desktop:h-[80%]'>
 
             <div className="flex flex-col gap-24">
-              <div className=" flex justify-center align-middle">
-                <img src={`images/${value.avatar}`} alt="avatar" className='rounded-[5px] w-full' />
+              <div className=" flex justify-center align-middle desktop:w-full laptop:h-[150px] desktop:h-auto ">
+                <img src={`images/${value.avatar}`} alt="avatar" className='rounded-[5px] laptop:w-[150px] desktop:w-full ' />
 
               </div>
 
@@ -51,7 +51,7 @@ export const NavBarComponent = () => {
             <div className="flex flex-row gap-[20px] justify-center items-center align-middle">
               {value.contacts.map((icons, index) =>
                 <a key={index} href={icons.link} target='_blank' rel='noreferrer'>
-                  <img src={`icons/${icons.icon}`} className='w-[32px] h-[32px]' />
+                  <img src={`icons/${icons.icon}`} className=' w-[24px] h-[24px] desktop:w-[32px] desktop:h-[32px]' />
                 </a>
               )}
 
