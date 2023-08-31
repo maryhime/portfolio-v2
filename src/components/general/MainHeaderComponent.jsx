@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const MainHeaderComponent = ({ title, subtitle }) => {
+export const MainHeaderComponent = ({ title, subtitle, style }) => {
   return (
-    <div className="flex flex-row gap-16 w-full">
+    <div className={`flex flex-row gap-16 ${style}`}>
       <div className="hidden laptop:flex">
         <img className='desktop:w-[25px]' src="icons/arrow.svg" alt="" />
       </div>

@@ -11,7 +11,8 @@ const IllustrationPage = () => {
       <div className='flex flex-col gap-64 w-full'>
         <MainHeaderComponent
           title={'Digital Illustration'}
-          subtitle={'Website Pages and applications that I have created during the course of my career and free time.'} />
+          subtitle={'Recent Digital Illustrations that I created both freelance and personal artworks.'} 
+          style={'w-full'} />
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
           {ILLUSTRATION.slice(0, 5).map((value, index) =>
             <CardContainerComponent

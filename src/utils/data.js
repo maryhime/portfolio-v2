@@ -38,7 +38,7 @@ export const TOOLS = Object.freeze([
   },
   {
     title: 'Wordpress Development',
-    column: 'grid-cols-2',
+    column: 'grid-cols-3',
     icons: ['elementor.svg', 'oxygen.svg','generatepress.svg']
   },
   {

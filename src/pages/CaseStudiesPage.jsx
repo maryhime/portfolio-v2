@@ -9,7 +9,9 @@ const CaseStudiesPage = () => {
     <div className="flex flex-col gap-24 laptop:gap-48 laptop-lg:gap-64 desktop:gap-64 w-full ">
       <MainHeaderComponent
         title={'Case Studies'}
-        subtitle={'Case Studies that I worked on during my free time to show my workflow, design process, and how I solve problems.'} />
+        subtitle={'Case Studies that I worked on during my free time to show my workflow, design process, and how I solve problems.'}
+        style={'laptop:w-[50%]'}
+      />
 
       <div className="grid grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3 gap-24 desktop:gap-48">
         {CASE_STUDIES.map((value, index) =>
