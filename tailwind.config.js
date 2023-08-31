@@ -42,7 +42,7 @@ export default {
       'card': '15px'
     },
     fontSize: {
-      'title': ['41px', {
+      'title': ['40px', {
         lineHeight: '68px',
         letterSpacing: 'auto',
         fontWeight: '700',

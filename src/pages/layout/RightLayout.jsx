@@ -18,7 +18,7 @@ export const RightLayout = () => {
         iconSize={'lg'} /> */}
 
       {/* <WebDesignPage /> */}
-      <CaseStudiesPage/>
+      {/* <CaseStudiesPage/> */}
       {/* <IllustrationPage/> */}
       {/* <ToolsPage/> */}
 

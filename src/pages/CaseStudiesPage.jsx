@@ -13,7 +13,7 @@ const CaseStudiesPage = () => {
         style={'laptop:w-[50%]'}
       />
 
-      <div className="grid grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3 gap-24 desktop:gap-48">
+      <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-24 desktop:gap-48">
         {CASE_STUDIES.map((value, index) =>
           <CardContainerComponent key={index} style={'pb-24'}>
             <CaseStudyCardComponent

@@ -43,7 +43,7 @@ export const TOOLS = Object.freeze([
   },
   {
     title: 'Web Development',
-    column: 'grid-cols-4',
+    column: 'grid-cols-3 laptop:grid-cols-4',
     icons: ['html-5.svg', 'css-3.svg', 'javascript.svg', 'bootstrap.svg', 'tailwindcss.svg', 'vscode.svg', 'react.svg', 'vite.svg']
   },
 
