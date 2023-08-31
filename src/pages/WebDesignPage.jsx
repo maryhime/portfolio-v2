@@ -14,7 +14,10 @@ const WebDesignPage = () => {
           subtitle={'Website Pages and applications that I have created during the course of my career and free time.'} />
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
           {WEB_DESIGN.slice(0, 5).map((value, index) =>
-            <CardContainerComponent key={index}>
+            <CardContainerComponent 
+            key={index}
+            style={'hover:text-primary-500'}
+            >
               <WebDesignCardComponent
                 title={value.title}
                 category={value.desc}

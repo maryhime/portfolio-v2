@@ -42,6 +42,11 @@ export default {
       'card': '15px'
     },
     fontSize: {
+      'title-desktop': ['75px', {
+        lineHeight: '128px',
+        letterSpacing: 'auto',
+        fontWeight: '700',
+      }],
 
       'title': ['40px', {
         lineHeight: '68px',
@@ -63,6 +68,11 @@ export default {
         lineHeight: '24px',
         letterSpacing: '0.56px',
         fontWeight: '500',
+      }],
+      'body-desktop': ['24px', {
+        lineHeight: '41px',
+        letterSpacing: '0.64px',
+        fontWeight: '400',
       }],
       'body': ['16px', {
         lineHeight: '27px',
