@@ -42,13 +42,7 @@ export default {
       'card': '15px'
     },
     fontSize: {
-      'title-desktop': ['75px', {
-        lineHeight: '128px',
-        letterSpacing: 'auto',
-        fontWeight: '700',
-      }],
-
-      'title': ['40px', {
+      'title': ['41px', {
         lineHeight: '68px',
         letterSpacing: 'auto',
         fontWeight: '700',
@@ -69,7 +63,7 @@ export default {
         letterSpacing: '0.56px',
         fontWeight: '500',
       }],
-      'body-desktop': ['24px', {
+      'body-desktop': ['18px', {
         lineHeight: '41px',
         letterSpacing: '0.64px',
         fontWeight: '400',

@@ -3,6 +3,7 @@ import WebDesignPage from "../WebDesignPage";
 import { IconButtonComponent } from "../../components/general/IconButtonComponent";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import CaseStudiesPage from "../CaseStudiesPage";
+import IllustrationPage from "../IllustrationPage";
 
 export const RightLayout = () => {
   return (
@@ -16,7 +17,8 @@ export const RightLayout = () => {
         iconSize={'lg'} /> */}
 
       {/* <WebDesignPage /> */}
-      <CaseStudiesPage/>
+      {/* <CaseStudiesPage/> */}
+      <IllustrationPage/>
 
 
     </div>

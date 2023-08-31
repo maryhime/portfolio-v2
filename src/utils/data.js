@@ -39,7 +39,7 @@ export const TOOLS = Object.freeze([
   {
     title: 'Wordpress Development',
     column: 'grid-cols-2',
-    icons: ['elementor.svg', 'oxygen.svg',]
+    icons: ['elementor.svg', 'oxygen.svg','generatepress.svg']
   },
   {
     title: 'Web Development',
@@ -187,4 +187,74 @@ export const CASE_STUDIES = Object.freeze([
     image: 'placeholder.svg',
     link: '#'
   },
+])
+
+export const ILLUSTRATION = Object.freeze([
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
+    image: 'placeholder.svg',
+    date: '08/14/2023'
+  },
+
+
 ])
