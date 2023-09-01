@@ -5,6 +5,7 @@ import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import CaseStudiesPage from "../CaseStudiesPage";
 import IllustrationPage from "../IllustrationPage";
 import ToolsPage from "../ToolsPage";
+import { InnerPagesComponent } from "../../components/InnerPagesComponent";
 
 export const RightLayout = () => {
   return (
@@ -21,6 +22,13 @@ export const RightLayout = () => {
       {/* <CaseStudiesPage/> */}
       {/* <IllustrationPage/> */}
       {/* <ToolsPage/> */}
+      <InnerPagesComponent 
+      title={'asdjalsdjal'}
+      subtitle={'sadhksdhkasdhfaksdh'}
+      hasTwoIcons={false}
+      icon1={'github.svg'}
+      link1={'#'}
+      />
 
 
     </div>

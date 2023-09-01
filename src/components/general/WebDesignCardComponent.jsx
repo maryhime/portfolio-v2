@@ -14,9 +14,9 @@ export const WebDesignCardComponent = ({ title, category, image, link }) => {
             {category}
           </p>
         </div>
-        <a href={link} target='_blank' rel='noreferrer'>
-          <IconButtonComponent icon={faChevronRight} />
-        </a>
+        
+          <IconButtonComponent link={link} icon={faChevronRight} />
+  
       </div>
       <div className="flex pl-[44px] justify-end ">
         <img src={`images/${image}`} alt=""  className='rounded-button'/>
