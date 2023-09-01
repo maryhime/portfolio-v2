@@ -1,4 +1,6 @@
-export const NAVIGATIONS = ['Studies', 'Web Design', 'Illustration', 'Tools', 'Resume'];
+export const NAVIGATIONS = [
+  'Studies', 
+  'Web Design', 'Illustration', 'Tools', 'Resume'];
 
 export const USER_INFO = Object.freeze([
   {
@@ -164,7 +166,8 @@ export const CASE_STUDIES = Object.freeze([
     category: "Web app",
     desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
     image: 'placeholder.svg',
-    link: '#'
+    link: '#',
+    
   },
   {
     title: 'To Do Organizer App',
