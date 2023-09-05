@@ -1,14 +1,42 @@
-import React from "react";
-import { NavBarComponent } from "../../components/NavBarComponent";
+import React, { Fragment } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { USER_INFO } from '../../utils/data';
+import { Navbar } from '../../components/Navbar';
+import { Profile } from '../../components/Profile';
+import { Socials } from './../../components/Socials';
 
 export const LeftLayout = () => {
   return (
+    <Fragment>
+      <Fragment>
+        <div className="w-full flex flex-row justify-between laptop:hidden  items-center">
+          <img className='w-[130px]' src="images/logo-nav.svg" alt="" />
+          <FontAwesomeIcon icon={faBars} size="xl" style={{ color: "#591863", }} />
+        </div>
 
-    <div className="bg-[url('/images/sidebar-bg.svg')]  laptop:w-[33%] laptop-lg:w-[30%] desktop:w-[25%] laptop:h-screen flex flex-col justify-center items-center px-24 py-16 tablet:px-48 laptop:p-20  laptop:flex  laptop:overflow-hidden phone:sticky phone:top-0">
+        {USER_INFO.map((value, index) =>
 
-      <NavBarComponent />
+          <div key={index} className='bg-white p-24 desktop:p-48 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-button font-inter laptop:w-full laptop-lg:w-[95%] desktop:w-[90%] '>
 
-    </div>
+            {/* Profile Section */}
+            <Profile
+              name={value.name}
+              avatar={value.avatar}
+            />
 
+            {/* Navigations */}
+            <Navbar />
+
+            {/*  Social Media Contacts */}
+            <Socials
+              contacts={value.contacts}
+            />
+          </div>
+        )
+        }
+
+      </Fragment>
+    </Fragment>
   )
 }
