@@ -21,17 +21,17 @@ export const RightLayout = ({ page }) => {
         size="w-[55px] h-[55px]"
         iconSize={'lg'} /> */}
 
-      {/* <WebDesignPage /> */}
-      {/* <CaseStudiesPage/> */}
-      {/* <IllustrationPage/> */}
+      <WebDesignPage />
+      <CaseStudiesPage/>
+      <IllustrationPage/>
       
-      {/* <ToolsPage/> */}
+      <ToolsPage/>
 
       <InnerPagesLayout></InnerPagesLayout>
 
-      {/* {
+      {
         PAGELIST.map((element, index) => page === element.path ? element.component : <></>)
-      } */}
+      }
     </div>
   )
 }
