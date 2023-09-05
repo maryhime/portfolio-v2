@@ -14,12 +14,12 @@ export const WebDesignCardComponent = ({ title, category, image, link }) => {
             {category}
           </p>
         </div>
-        
-          <IconButtonComponent link={link} icon={faChevronRight} />
-  
+
+        <IconButtonComponent link={link} icon={faChevronRight} />
+
       </div>
       <div className="flex pl-[44px] justify-end ">
-        <img src={`images/${image}`} alt=""  className='rounded-button'/>
+        <img src={`images/${image}`} alt="" className='rounded-button' />
       </div>
 
 

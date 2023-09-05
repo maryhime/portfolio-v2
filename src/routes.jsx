@@ -1,11 +1,10 @@
 
-import React from 'react';
+import React, { lazy } from 'react';
 
-import HomePage from './pages/HomePage.jsx'
-import WebDesignPage from './pages/WebDesignPage.jsx';
-import CaseStudiesPage from './pages/CaseStudiesPage.jsx';
-import IllustrationPage from './pages/IllustrationPage.jsx';
-import ToolsPage from './pages/ToolsPage.jsx';
+import CaseStudiesPage from './pages/CaseStudies/CaseStudiesPage.jsx';
+import IllustrationPage from './pages/Illustration/IllustrationPage.jsx';
+import ToolsPage from './pages/Tools/ToolsPage.jsx';
+import WebDesignPage from './pages/WebDesign/WebDesignPage';
 
 export const PAGES = [
   {
