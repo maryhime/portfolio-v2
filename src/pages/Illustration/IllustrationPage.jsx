@@ -1,8 +1,8 @@
 import React from 'react'
-import { MainHeaderComponent } from '../components/general/MainHeaderComponent'
-import { CardContainerComponent } from '../components/general/CardContainerComponent'
-import { ILLUSTRATION } from '../utils/data'
-import { IllustrationCardComponent } from '../components/general/IllustrationCardComponent'
+import { MainHeaderComponent } from '../../components/general/MainHeaderComponent'
+import { CardContainerComponent } from '../../components/general/CardContainerComponent'
+import { ILLUSTRATION } from '../../utils/data'
+import { IllustrationCardComponent } from '../../components/general/IllustrationCardComponent'
 
 const IllustrationPage = () => {
   return (

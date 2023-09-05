@@ -144,6 +144,301 @@ export const WEB_DESIGN = Object.freeze([
     link: '#'
 
   },
+
+
+
+
+  {
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },{
+    title: 'Tribetxt',
+    desc: "Web app Design",
+    image: 'tribetxt.png',
+    link: '#'
+
+  },
+
+
 ])
 
 export const CASE_STUDIES = Object.freeze([

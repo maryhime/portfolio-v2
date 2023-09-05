@@ -1,22 +1,25 @@
 import React, { Fragment } from 'react'
-import { MainHeaderComponent } from '../components/general/MainHeaderComponent'
-import { WebDesignCardComponent } from '../components/general/WebDesignCardComponent'
-import { IconButtonComponent } from '../components/general/IconButtonComponent'
-import { WEB_DESIGN } from '../utils/data'
-import { CardContainerComponent } from '../components/general/CardContainerComponent'
+import { MainHeaderComponent } from '../../components/general/MainHeaderComponent'
+import { WebDesignCardComponent } from '../../components/general/WebDesignCardComponent'
+import { IconButtonComponent } from '../../components/general/IconButtonComponent'
+import { WEB_DESIGN } from '../../utils/data'
+import { CardContainerComponent } from '../../components/general/CardContainerComponent'
 
 const WebDesignPage = () => {
   return (
     <div className="flex flex-col phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 w-full ">
+
       <div className='flex flex-col gap-64 '>
         <MainHeaderComponent
           title={'Web Design & Development'}
-          subtitle={'Website Pages and applications that I have created during the course of my career and free time.'} />
+          subtitle={'Website Pages and applications that I have created during the course of my career and free time.'}
+        />
+
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
           {WEB_DESIGN.slice(0, 5).map((value, index) =>
-            <CardContainerComponent 
-            key={index}
-            style={'hover:text-primary-500'}
+            <CardContainerComponent
+              key={index}
+              style={'hover:text-primary-500'}
             >
               <WebDesignCardComponent
                 title={value.title}
@@ -28,6 +31,7 @@ const WebDesignPage = () => {
 
           )}
         </div>
+        
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
           {WEB_DESIGN.slice(0, 6).map((value, index) =>
@@ -42,6 +46,7 @@ const WebDesignPage = () => {
 
           )}
         </div>
+        
         {/* mobile */}
         <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
           {WEB_DESIGN.map((value, index) =>
@@ -57,6 +62,7 @@ const WebDesignPage = () => {
         </div>
 
       </div>
+      
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
         {WEB_DESIGN.slice(6, 13).map((value, index) =>

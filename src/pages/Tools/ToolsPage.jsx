@@ -1,6 +1,6 @@
 import React from 'react'
-import { MainHeaderComponent } from '../components/general/MainHeaderComponent'
-import { ToolsCardComponent } from '../components/general/ToolsCardComponent'
+import { MainHeaderComponent } from '../../components/general/MainHeaderComponent'
+import { ToolsCardComponent } from '../../components/general/ToolsCardComponent'
 
 const ToolsPage = () => {
   return (
