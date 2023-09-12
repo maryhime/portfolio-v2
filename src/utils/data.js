@@ -181,7 +181,7 @@ export const CASE_STUDIES = Object.freeze([
 export const ILLUSTRATION = Object.freeze([
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/ayano-4.png',
     date: '08/14/2023'
   },
   {
