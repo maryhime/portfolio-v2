@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { MainHeaderComponent } from '../../components/general/MainHeaderComponent'
 import { WebDesignCardComponent } from '../../components/general/WebDesignCardComponent'
-import { IconButtonComponent } from '../../components/general/IconButtonComponent'
 import { WEB_DESIGN } from '../../utils/data'
 import { CardContainerComponent } from '../../components/general/CardContainerComponent'
 
@@ -16,7 +15,7 @@ const WebDesignPage = () => {
         />
 
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
-          {WEB_DESIGN.slice(0, 5).map((value, index) =>
+          {WEB_DESIGN.slice(0, 3).map((value, index) =>
             <CardContainerComponent
               key={index}
               style={'hover:text-primary-500'}
@@ -34,7 +33,7 @@ const WebDesignPage = () => {
         
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
-          {WEB_DESIGN.slice(0, 6).map((value, index) =>
+          {WEB_DESIGN.slice(0, 5).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent
                 title={value.title}
@@ -65,7 +64,7 @@ const WebDesignPage = () => {
       
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
-        {WEB_DESIGN.slice(6, 13).map((value, index) =>
+        {WEB_DESIGN.slice(5, 10).map((value, index) =>
           <CardContainerComponent key={index}>
             <WebDesignCardComponent
               title={value.title}
@@ -79,7 +78,7 @@ const WebDesignPage = () => {
 
       {/* desktop */}
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(4, 9).map((value, index) =>
+        {WEB_DESIGN.slice(3, 7).map((value, index) =>
           <CardContainerComponent key={index}>
             <WebDesignCardComponent
               title={value.title}
@@ -91,7 +90,7 @@ const WebDesignPage = () => {
         )}
       </div>
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(9, 13).map((value, index) =>
+        {WEB_DESIGN.slice(7, 10).map((value, index) =>
           <CardContainerComponent key={index}>
             <WebDesignCardComponent
               title={value.title}

@@ -1,6 +1,5 @@
 import React from "react";
 import { PAGES } from "../routes";
-import { NavPillComponent } from "./general/NavPillComponent";
 import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {

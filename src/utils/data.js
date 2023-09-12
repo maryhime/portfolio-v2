@@ -58,6 +58,20 @@ export const TOOLS = Object.freeze([
 
 export const WEB_DESIGN = Object.freeze([
   {
+    title: 'Recozy',
+    desc: 'Landing Page Design and Development',
+    image: 'recozy.png',
+    link: 'https://hypeburger.vercel.app'
+
+  },
+    {
+    title: 'Superare',
+    desc: 'Landing Page Design and Development',
+    image: 'Hyperare.png',
+    link: 'https://hyperare.vercel.app/'
+
+  },
+  {
     title: 'Starbugs',
     desc: 'Landing Page Design',
     image: 'starbugs.png',
@@ -67,7 +81,7 @@ export const WEB_DESIGN = Object.freeze([
     title: 'Miron Digital',
     desc: 'Landing Page Design',
     image: 'mirondigital.png',
-    link: '#'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&node-id=1-1650&mode=design&t=EGNqNfdI8pUMjWWj-1'
   },
   {
     title: 'Terra And Ember',
@@ -81,24 +95,17 @@ export const WEB_DESIGN = Object.freeze([
     image: 'portfolio-v1.png',
     link: 'https://mary-therese-caseria.vercel.app/'
   },
+  // {
+  //   title: 'Circles',
+  //   desc: 'Landing Page Design and Development',
+  //   image: 'recozy.png',
+  //   link: 'https://circlesv1-eight.vercel.app/'
+
+  // },
   {
     title: 'Hypeburger',
     desc: 'Landing Page Design and Development',
     image: 'hypeburger.png',
-    link: 'https://hypeburger.vercel.app'
-
-  },
-  {
-    title: 'Superare',
-    desc: 'Landing Page Design and Development',
-    image: 'Hyperare.png',
-    link: 'https://hypeburger.vercel.app'
-
-  },
-  {
-    title: 'Recozy',
-    desc: 'Landing Page Design and Development',
-    image: 'recozy.png',
     link: 'https://hypeburger.vercel.app'
 
   },
@@ -117,328 +124,12 @@ export const WEB_DESIGN = Object.freeze([
 
   },
   {
-    title: 'Her Erotic Story',
-    desc: "Web app Design",
-    image: 'HES.png',
-    link: '#'
-
-  },
-  {
     title: 'So-cal ponds',
     desc: "wordpress development: oxygen builder",
     image: 'socalponds.png',
     link: 'https://socalponds.com/'
 
   },
-  {
-    title: 'My Allied Health Academy',
-    desc: "Web app Design",
-    image: 'MAHA.png',
-    link: '#'
-
-  },
-  {
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },
-
-
-
-
-  {
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },{
-    title: 'Tribetxt',
-    desc: "Web app Design",
-    image: 'tribetxt.png',
-    link: '#'
-
-  },
-
-
 ])
 
 export const CASE_STUDIES = Object.freeze([
