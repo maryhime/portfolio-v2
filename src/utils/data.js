@@ -181,69 +181,69 @@ export const CASE_STUDIES = Object.freeze([
 export const ILLUSTRATION = Object.freeze([
   {
     title : 'Lorem Ipsum',
-    image: 'illustrations/ayano-4.png',
+    image: 'illustrations/study redraw.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/diluc.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/avatar.jpg',
+    date: '08/14/2023'
+  },
+ 
+  {
+    title : 'Lorem Ipsum',
+    image: 'illustrations/prideandprejudice.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/anne and gilbert2.png',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/anne and gilbert.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/lumine.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/ayano.png',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/childe.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/mona.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/avatar2.jpg',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/ayano.png',
     date: '08/14/2023'
   },
   {
     title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
+    image: 'illustrations/ayano.png',
     date: '08/14/2023'
   },
-  {
-    title : 'Lorem Ipsum',
-    image: 'placeholder.svg',
-    date: '08/14/2023'
-  },
-
 
 ])
