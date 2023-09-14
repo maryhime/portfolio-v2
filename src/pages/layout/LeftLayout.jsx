@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { USER_INFO } from '../../utils/data';
@@ -6,14 +6,11 @@ import { Navbar } from '../../components/Navbar';
 import { Profile } from '../../components/Profile';
 import { Socials } from './../../components/Socials';
 
+
 export const LeftLayout = () => {
+ 
   return (
     <Fragment>
-      <Fragment>
-        <div className="w-full flex flex-row justify-between laptop:hidden  items-center">
-          <img className='w-[130px]' src="images/logo-nav.svg" alt="" />
-          <FontAwesomeIcon icon={faBars} size="xl" style={{ color: "#591863", }} />
-        </div>
 
         {USER_INFO.map((value, index) =>
 
@@ -37,6 +34,5 @@ export const LeftLayout = () => {
         }
 
       </Fragment>
-    </Fragment>
   )
 }

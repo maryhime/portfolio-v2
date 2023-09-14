@@ -4,7 +4,7 @@ export const Profile = ({ name, avatar }) => {
   return (
     <div className="flex flex-col gap-24">
       <div className=" flex justify-center align-middle desktop:w-full laptop:h-[150px] desktop:h-auto ">
-        <img src={`images/${avatar}`} alt="avatar" className='rounded-[5px] laptop:w-[150px] desktop:w-full ' />
+        <img src={`images/${avatar}`} alt="avatar" className='rounded-[5px] w-[200px] laptop:w-[150px] desktop:w-full ' />
         {/* <img src={`images/placeholder.svg`} alt="avatar" className='rounded-[5px] laptop:w-[150px] desktop:w-full ' /> */}
 
       </div>

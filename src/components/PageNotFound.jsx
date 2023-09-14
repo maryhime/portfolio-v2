@@ -9,7 +9,7 @@ export const PageNotFound = () => {
         alt=""
       />
       <div className="flex flex-col gap-16 text-center">
-        <h1 className="text-title uppercase">under construction</h1>
+        <h1 className="text-title uppercase">Under Construction</h1>
         <p className="text-body text-body-text desktop:text-body-desktop">
           This section is under construction and will be back after a short while.
         </p>
