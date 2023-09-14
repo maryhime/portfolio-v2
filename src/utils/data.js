@@ -4,7 +4,7 @@ export const NAVIGATIONS = [
 
 export const USER_INFO = Object.freeze([
   {
-    'name': 'Mary Therese Caseria',
+    'name': 'Mary Therese Meldionne Caseria',
     'avatar': 'avatar.png',
     'contacts': [
       {

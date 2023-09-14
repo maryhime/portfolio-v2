@@ -52,6 +52,11 @@ export default {
         letterSpacing: 'auto',
         fontWeight: '700',
       }],
+      'title-phone': ['40px', {
+        lineHeight: 'normal',
+        letterSpacing: 'auto',
+        fontWeight: '700',
+      }],
 
       'tools-card': ['32px', {
         lineHeight: 'normal',
