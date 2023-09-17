@@ -45,8 +45,8 @@ export const TOOLS = Object.freeze([
   },
   {
     title: 'Web Development',
-    column: 'grid-cols-3 laptop:grid-cols-4',
-    icons: ['html-5.svg', 'css-3.svg', 'javascript.svg', 'bootstrap.svg', 'tailwindcss.svg', 'vscode.svg', 'react.svg', 'vite.svg']
+    column: 'grid-cols-3 laptop:grid-cols-3',
+    icons: ['html-5.svg', 'css-3.svg', 'javascript.svg', 'bootstrap.svg', 'tailwindcss.svg', 'vscode.svg', 'react.svg', 'vite.svg', 'MUI.svg']
   },
 
   {
@@ -57,13 +57,7 @@ export const TOOLS = Object.freeze([
 ])
 
 export const WEB_DESIGN = Object.freeze([
-  {
-    title: 'Recozy',
-    desc: 'Landing Page Design and Development',
-    image: 'recozy.png',
-    link: 'https://hypeburger.vercel.app'
-
-  },
+  
     {
     title: 'Superare',
     desc: 'Landing Page Design and Development',
@@ -75,7 +69,7 @@ export const WEB_DESIGN = Object.freeze([
     title: 'Starbugs',
     desc: 'Landing Page Design',
     image: 'starbugs.png',
-    link: '#'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design'
   },
   {
     title: 'Miron Digital',
@@ -87,7 +81,7 @@ export const WEB_DESIGN = Object.freeze([
     title: 'Terra And Ember',
     desc: 'Landing Page Design',
     image: 'terraAndember.png',
-    link: '#'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-1451&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A1451&show-proto-sidebar=1&mode=design'
   },
   {
     title: 'Portfolio v.1',
@@ -95,13 +89,6 @@ export const WEB_DESIGN = Object.freeze([
     image: 'portfolio-v1.png',
     link: 'https://mary-therese-caseria.vercel.app/'
   },
-  // {
-  //   title: 'Circles',
-  //   desc: 'Landing Page Design and Development',
-  //   image: 'recozy.png',
-  //   link: 'https://circlesv1-eight.vercel.app/'
-
-  // },
   {
     title: 'Hypeburger',
     desc: 'Landing Page Design and Development',
@@ -110,10 +97,31 @@ export const WEB_DESIGN = Object.freeze([
 
   },
   {
+    title: 'Circles',
+    desc: 'Landing Page Design',
+    image: 'circles.png',
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=24-3882&viewport=1149%2C-77%2C0.13&t=rQ06dQ18XqgasVIm-1&scaling=scale-down&starting-point-node-id=24%3A3882&mode=design'
+
+  },
+  {
+    title: 'Recozy',
+    desc: 'Landing Page Design and Development',
+    image: 'recozy.png',
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=28-5946&viewport=1149%2C-77%2C0.13&t=rQ06dQ18XqgasVIm-1&scaling=scale-down&starting-point-node-id=28%3A5946&mode=design'
+
+  },
+  {
     title: 'montrose sar',
     desc: "wordpress development: elementor pro",
     image: 'msar.png',
     link: 'https://montrosesar.org/'
+
+  },
+  {
+    title: 'Happy Wally',
+    desc: "Landing Page Design",
+    image: 'happy-wally.png',
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=36-6519&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=36%3A6519&show-proto-sidebar=1&mode=design'
 
   },
   {
@@ -181,18 +189,23 @@ export const CASE_STUDIES = Object.freeze([
 export const ILLUSTRATION = Object.freeze([
   {
     title : 'Lorem Ipsum',
+    image: 'illustrations/hamin & somang.png',
+    date: '09/16/2023'
+  },
+  {
+    title : 'Lorem Ipsum',
     image: 'illustrations/study redraw.jpg',
-    date: '08/14/2023'
+    date: '02/16/2023'
   },
   {
     title : 'Lorem Ipsum',
     image: 'illustrations/diluc.jpg',
-    date: '08/14/2023'
+    date: '02/05/2023'
   },
   {
     title : 'Lorem Ipsum',
     image: 'illustrations/avatar.jpg',
-    date: '08/14/2023'
+    date: '03/04/2023'
   },
  
   {
