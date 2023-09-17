@@ -13,7 +13,7 @@ export const ToolsCardComponent = () => {
             </h3>
             <div className={`grid ${value.column} align-center w-fit gap-24`}>
               {value.icons.map((icons, index) =>
-                <img key={index} src={`icons/${icons}`} alt="" />
+                <img className='w-[75px]' key={index} src={`icons/${icons}`} alt="" />
               )}
             </div>
           </Fragment>
