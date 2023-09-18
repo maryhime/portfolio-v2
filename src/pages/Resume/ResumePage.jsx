@@ -13,7 +13,7 @@ const ResumePage = () => {
   return (
     <div>
       <Document
-        file={"./Banderlipe_RenoAngelo-Resume.pdf"}
+        file={"/public//files/Banderlipe_RenoAngelo-Resume.pdf"}
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page height={600} width={600} size="A4" pageNumber={pageNumber} />
