@@ -6,6 +6,7 @@ import IllustrationPage from './pages/Illustration/IllustrationPage.jsx';
 import ToolsPage from './pages/Tools/ToolsPage.jsx';
 import WebDesignPage from './pages/WebDesign/WebDesignPage';
 import { PageNotFound } from './components/PageNotFound.jsx';
+import ResumePage from './pages/Resume/ResumePage.jsx';
 
 export const PAGES = [
   {
@@ -35,7 +36,7 @@ export const PAGES = [
   {
     'id': 5,
     'name': 'Resume',
-    'component': <ToolsPage />,
+    'component': <ResumePage />,
     'path': '/resume',
   },
 ];
