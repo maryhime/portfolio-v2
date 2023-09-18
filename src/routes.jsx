@@ -23,7 +23,7 @@ export const PAGES = [
   {
     'id': 3,
     'name': 'Illustrations',
-    'component': <PageNotFound/>,
+    'component': <IllustrationPage s/>,
     'path': '/illustrations',
   },
   {
