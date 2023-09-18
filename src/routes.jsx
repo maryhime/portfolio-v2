@@ -33,10 +33,4 @@ export const PAGES = [
     'component': <ToolsPage />,
     'path': '/tools',
   },
-  {
-    'id': 5,
-    'name': 'Resume',
-    'component': <ResumePage />,
-    'path': '/resume',
-  },
 ];
