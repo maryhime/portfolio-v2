@@ -13,7 +13,7 @@ export const Navbar = ({ close }) => {
   };
 
   const handleDownload = () => {
-    return window.open("/public/files/Caseria-Mary-Therese-Resume.pdf");
+    return window.open("files/Caseria-Mary-Therese-Resume.pdf");
   };
 
   return (
