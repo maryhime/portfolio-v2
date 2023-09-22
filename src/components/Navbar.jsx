@@ -12,6 +12,10 @@ export const Navbar = ({ close }) => {
     };
   };
 
+  const handleDownload = () => {
+    window.open("/public/files/Caseria-Mary-Therese-Resume.pdf");
+  };
+
   return (
     <div className="grid grid-cols-2 gap-8">
       {PAGES.map((value, index) => (
@@ -28,7 +32,7 @@ export const Navbar = ({ close }) => {
         </NavLink>
       ))}
       <button
-        onClick={downloadResume}
+        onClick={handleDownload}
         className={
           "p-8 flex gap-[10px] rounded-button h-button text-button uppercase w-full justify-center items-center border-solid border-[1px] border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-primary-100"
         }
