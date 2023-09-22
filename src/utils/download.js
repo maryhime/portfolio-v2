@@ -1,5 +1,5 @@
 const fileName = 'Caseria-Mary-Therese-Resume.pdf';
-const fileLocation = `/public/files/${fileName}`;
+const fileLocation = `files/${fileName}`;
 
 export const downloadResume = () => {
   let alink = document.createElement("a");
