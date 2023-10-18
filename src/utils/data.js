@@ -1,11 +1,12 @@
 export const NAVIGATIONS = [
-  'Studies', 
+  'Studies',
   'Web Design', 'Illustration', 'Tools', 'Resume'];
 
 export const USER_INFO = Object.freeze([
   {
     'name': 'Mary Therese Meldionne Caseria',
     'avatar': 'avatar.png',
+    // 'avatar': 'placeholder.svg',
     'contacts': [
       {
         'icon': 'instagram.svg',
@@ -27,7 +28,7 @@ export const USER_INFO = Object.freeze([
         'icon': 'gmail.svg',
         'link': 'mailto:caseria.therese@gmail.com',
       },
-      
+
     ],
   }
 ])
@@ -41,7 +42,7 @@ export const TOOLS = Object.freeze([
   {
     title: 'Wordpress Development',
     column: 'grid-cols-3',
-    icons: ['elementor.svg', 'oxygen.svg','generatepress.svg']
+    icons: ['elementor.svg', 'oxygen.svg', 'generatepress.svg']
   },
   {
     title: 'Web Development',
@@ -57,13 +58,12 @@ export const TOOLS = Object.freeze([
 ])
 
 export const WEB_DESIGN = Object.freeze([
-  
-    {
+
+  {
     title: 'Superare',
     desc: 'Landing Page Design and Development',
     image: 'Hyperare.png',
     link: 'https://hyperare.vercel.app/'
-
   },
   {
     title: 'Starbugs',
@@ -81,14 +81,14 @@ export const WEB_DESIGN = Object.freeze([
     title: 'Terra And Ember',
     desc: 'Landing Page Design',
     image: 'terraAndember.png',
-    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-1451&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A1451&show-proto-sidebar=1&mode=design'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=61-11239&viewport=-973%2C214%2C0.26&t=sP0qPYSC4b6PEX53-1&scaling=scale-down&starting-point-node-id=61%3A11239&show-proto-sidebar=1&mode=design'
   },
-  {
-    title: 'Portfolio v.1',
-    desc: 'Landing Page Design and Development',
-    image: 'portfolio-v1.png',
-    link: 'https://mary-therese-caseria.vercel.app/'
-  },
+  // {
+  //   title: 'Portfolio v.1',
+  //   desc: 'Landing Page Design and Development',
+  //   image: 'portfolio-v1.png',
+  //   link: 'https://mary-therese-caseria.vercel.app/'
+  // },
   {
     title: 'Hypeburger',
     desc: 'Landing Page Design and Development',
@@ -118,6 +118,12 @@ export const WEB_DESIGN = Object.freeze([
 
   },
   {
+    title: 'My Allied Health Academy',
+    desc: "Web Application Design",
+    image: 'MAHA.png',
+    link: 'http://design.nmscreative.com/my-allied-health-academy/'
+  },
+  {
     title: 'Happy Wally',
     desc: "Landing Page Design",
     image: 'happy-wally.png',
@@ -136,7 +142,24 @@ export const WEB_DESIGN = Object.freeze([
     desc: "wordpress development: oxygen builder",
     image: 'socalponds.png',
     link: 'https://socalponds.com/'
-
+  },
+  {
+    title: 'Her Erotic Story',
+    desc: "Web Application Design",
+    image: 'HES.png',
+    link: 'http://design.nmscreative.com/her-erotic-story/'
+  },
+  {
+    title: 'Share My Circle',
+    desc: "Web Application Design",
+    image: 'smc.png',
+    link: 'http://design.nmscreative.com/share-my-circle-2/'
+  },
+  {
+    title: 'TribeTXT',
+    desc: "Web Application Design",
+    image: 'tribetxt.png',
+    link: 'http://design.nmscreative.com/tribetxt/'
   },
 ])
 
@@ -161,7 +184,7 @@ export const CASE_STUDIES = Object.freeze([
     desc: 'Lorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amettLorem Ipsum dolor sit ame Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amett',
     image: 'placeholder.svg',
     link: '#',
-    
+
   },
   {
     title: 'To Do Organizer App',
@@ -188,63 +211,63 @@ export const CASE_STUDIES = Object.freeze([
 
 export const ILLUSTRATION = Object.freeze([
   {
-    title : "Seasons of Blossom",
+    title: "Seasons of Blossom",
     image: 'illustrations/hamin & somang.png',
     date: '09/16/2023'
   },
   {
-    title : 'Photo Study',
+    title: 'Photo Study',
     image: 'illustrations/study redraw.jpg',
     date: '02/16/2023'
   },
   {
-    title : 'Diluc',
+    title: 'Diluc',
     image: 'illustrations/diluc.jpg',
     date: '02/05/2023'
   },
   {
-    title : 'Avatar',
+    title: 'Avatar',
     image: 'illustrations/avatar.jpg',
     date: '03/04/2023'
   },
- 
+
   {
-    title : 'Pride and Prejudice',
+    title: 'Pride and Prejudice',
     image: 'illustrations/prideandprejudice.jpg',
     date: '08/14/2023'
   },
   {
-    title : 'Anne and Gilbert',
+    title: 'Anne and Gilbert',
     image: 'illustrations/anne and gilbert2.png',
     date: '08/14/2023'
   },
   {
-    title : 'Anne of Green Gables',
+    title: 'Anne of Green Gables',
     image: 'illustrations/anne and gilbert.jpg',
     date: '08/14/2023'
   },
   {
-    title : 'Lumine',
+    title: 'Lumine',
     image: 'illustrations/lumine.jpg',
     date: '08/14/2023'
   },
   {
-    title : 'Additional Memory',
+    title: 'Additional Memory',
     image: 'illustrations/ayano.png',
     date: '08/14/2023'
   },
   {
-    title : 'Tartaglia',
+    title: 'Tartaglia',
     image: 'illustrations/childe.jpg',
     date: '08/14/2023'
   },
   {
-    title : 'Mona',
+    title: 'Mona',
     image: 'illustrations/mona.jpg',
     date: '08/14/2023'
   },
   {
-    title : 'Avatar',
+    title: 'Avatar',
     image: 'illustrations/avatar2.jpg',
     date: '08/14/2023'
   },

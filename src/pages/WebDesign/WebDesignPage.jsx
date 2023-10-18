@@ -13,10 +13,10 @@ const WebDesignPage = () => {
           title={'Web Design & Development'}
           subtitle={'Website Pages and applications that I have created during the course of my career and free time.'}
         />
-        
+
 
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
-          {WEB_DESIGN.slice(0, 4).map((value, index) =>
+          {WEB_DESIGN.slice(0, 5).map((value, index) =>
             <CardContainerComponent
               key={index}
               style={'hover:text-primary-500'}
@@ -31,10 +31,10 @@ const WebDesignPage = () => {
 
           )}
         </div>
-        
+
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
-          {WEB_DESIGN.slice(0, 6).map((value, index) =>
+          {WEB_DESIGN.slice(0, 8).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent
                 title={value.title}
@@ -46,11 +46,13 @@ const WebDesignPage = () => {
 
           )}
         </div>
-        
+
         {/* mobile */}
         <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
           {WEB_DESIGN.map((value, index) =>
-            <CardContainerComponent key={index}>
+            <CardContainerComponent
+              key={index}
+              style={'hover:text-primary-500'}>
               <WebDesignCardComponent
                 title={value.title}
                 category={value.desc}
@@ -62,11 +64,14 @@ const WebDesignPage = () => {
         </div>
 
       </div>
-      
+
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
-        {WEB_DESIGN.slice(6, 12).map((value, index) =>
-          <CardContainerComponent key={index}>
+        {WEB_DESIGN.slice(8, 15).map((value, index) =>
+          <CardContainerComponent
+            key={index}
+            style={'hover:text-primary-500'}
+          >
             <WebDesignCardComponent
               title={value.title}
               category={value.desc}
@@ -79,8 +84,10 @@ const WebDesignPage = () => {
 
       {/* desktop */}
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(4, 8).map((value, index) =>
-          <CardContainerComponent key={index}>
+        {WEB_DESIGN.slice(5, 10).map((value, index) =>
+          <CardContainerComponent
+            key={index}
+            style={'hover:text-primary-500'}>
             <WebDesignCardComponent
               title={value.title}
               category={value.desc}
@@ -91,8 +98,11 @@ const WebDesignPage = () => {
         )}
       </div>
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(8, 12).map((value, index) =>
-          <CardContainerComponent key={index}>
+        {WEB_DESIGN.slice(10, 15).map((value, index) =>
+          <CardContainerComponent 
+          key={index}
+          style={'hover:text-primary-500'}
+          >
             <WebDesignCardComponent
               title={value.title}
               category={value.desc}
