@@ -16,7 +16,7 @@ const WebDesignPage = () => {
 
 
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
-          {WEB_DESIGN.slice(0, 5).map((value, index) =>
+          {WEB_DESIGN.slice(0, 6).map((value, index) =>
             <CardContainerComponent
               key={index}
               style={'hover:text-primary-500'}
@@ -34,7 +34,7 @@ const WebDesignPage = () => {
 
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
-          {WEB_DESIGN.slice(0, 8).map((value, index) =>
+          {WEB_DESIGN.slice(0, 9).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent
                 title={value.title}
@@ -67,7 +67,7 @@ const WebDesignPage = () => {
 
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
-        {WEB_DESIGN.slice(8, 15).map((value, index) =>
+        {WEB_DESIGN.slice(9, 17).map((value, index) =>
           <CardContainerComponent
             key={index}
             style={'hover:text-primary-500'}
@@ -84,7 +84,7 @@ const WebDesignPage = () => {
 
       {/* desktop */}
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(5, 10).map((value, index) =>
+        {WEB_DESIGN.slice(6, 12).map((value, index) =>
           <CardContainerComponent
             key={index}
             style={'hover:text-primary-500'}>
@@ -98,7 +98,7 @@ const WebDesignPage = () => {
         )}
       </div>
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(10, 15).map((value, index) =>
+        {WEB_DESIGN.slice(12, 17).map((value, index) =>
           <CardContainerComponent 
           key={index}
           style={'hover:text-primary-500'}

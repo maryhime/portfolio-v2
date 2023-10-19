@@ -58,7 +58,18 @@ export const TOOLS = Object.freeze([
 ])
 
 export const WEB_DESIGN = Object.freeze([
-
+  {
+    title: 'Juicelabs',
+    desc: 'Landing Page Design',
+    image: 'juicelabs.png',
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=64-3608&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=64%3A3608&show-proto-sidebar=1&mode=design'
+  },
+  {
+    title: 'Rebank',
+    desc: 'Landing Page Design',
+    image: 'rebank.png',
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=59-1933&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=59%3A1933&show-proto-sidebar=1&mode=design'
+  },
   {
     title: 'Superare',
     desc: 'Landing Page Design and Development',
@@ -75,13 +86,13 @@ export const WEB_DESIGN = Object.freeze([
     title: 'Miron Digital',
     desc: 'Landing Page Design',
     image: 'mirondigital.png',
-    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&node-id=1-1650&mode=design&t=EGNqNfdI8pUMjWWj-1'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=64-9563&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=64%3A9563&show-proto-sidebar=1&mode=design'
   },
   {
     title: 'Terra And Ember',
     desc: 'Landing Page Design',
     image: 'terraAndember.png',
-    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=61-11239&viewport=-973%2C214%2C0.26&t=sP0qPYSC4b6PEX53-1&scaling=scale-down&starting-point-node-id=61%3A11239&show-proto-sidebar=1&mode=design'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=61-11239&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=61%3A11239&show-proto-sidebar=1&mode=design'
   },
   // {
   //   title: 'Portfolio v.1',
@@ -100,14 +111,14 @@ export const WEB_DESIGN = Object.freeze([
     title: 'Circles',
     desc: 'Landing Page Design',
     image: 'circles.png',
-    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=24-3882&viewport=1149%2C-77%2C0.13&t=rQ06dQ18XqgasVIm-1&scaling=scale-down&starting-point-node-id=24%3A3882&mode=design'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=24-3882&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=24%3A3882&show-proto-sidebar=1&mode=design'
 
   },
   {
     title: 'Recozy',
     desc: 'Landing Page Design and Development',
     image: 'recozy.png',
-    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=28-5946&viewport=1149%2C-77%2C0.13&t=rQ06dQ18XqgasVIm-1&scaling=scale-down&starting-point-node-id=28%3A5946&mode=design'
+    link: 'https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=64-9167&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=64%3A9167&show-proto-sidebar=1&mode=design'
 
   },
   {
