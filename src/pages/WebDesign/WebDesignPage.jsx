@@ -34,7 +34,7 @@ const WebDesignPage = () => {
 
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
-          {WEB_DESIGN.slice(0, 9).map((value, index) =>
+          {WEB_DESIGN.slice(0, 8).map((value, index) =>
             <CardContainerComponent key={index}>
               <WebDesignCardComponent
                 title={value.title}
@@ -67,7 +67,7 @@ const WebDesignPage = () => {
 
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden">
-        {WEB_DESIGN.slice(9, 17).map((value, index) =>
+        {WEB_DESIGN.slice(8, 16).map((value, index) =>
           <CardContainerComponent
             key={index}
             style={'hover:text-primary-500'}
@@ -98,7 +98,7 @@ const WebDesignPage = () => {
         )}
       </div>
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48">
-        {WEB_DESIGN.slice(12, 17).map((value, index) =>
+        {WEB_DESIGN.slice(12, 16).map((value, index) =>
           <CardContainerComponent 
           key={index}
           style={'hover:text-primary-500'}

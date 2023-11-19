@@ -154,12 +154,12 @@ export const WEB_DESIGN = Object.freeze([
     image: 'socalponds.png',
     link: 'https://socalponds.com/'
   },
-  {
-    title: 'Her Erotic Story',
-    desc: "Web Application Design",
-    image: 'HES.png',
-    link: 'http://design.nmscreative.com/her-erotic-story/'
-  },
+  // {
+  //   title: 'Her Erotic Story',
+  //   desc: "Web Application Design",
+  //   image: 'HES.png',
+  //   link: 'http://design.nmscreative.com/her-erotic-story/'
+  // },
   {
     title: 'Share My Circle',
     desc: "Web Application Design",
