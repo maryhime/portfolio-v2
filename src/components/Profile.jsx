@@ -17,7 +17,7 @@ export const Profile = ({ name, avatar }) => {
         </h4>
         <p className='text-body text-body-text 
             '>
-          A UI/UX Designer in Baguio City.
+          A UI/UX Designer from Pangasinan.
           I create delightful experiences with empathy for users.
         </p>
 
