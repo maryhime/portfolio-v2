@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { DESIGN_GALLERY_MOCK_DATA } from "../../../../_mock/design-galery";
+import { DESIGN_GALLERY_MOCK_DATA } from "../../../_mock/design-galery";
 
 export const WebDesignInnerPage = () => {
   const { id } = useParams();
