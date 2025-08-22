@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { CASE_STUDIES_MOCK_DATA } from "../../../_mock/case-studies";
+import { CASE_STUDIES_MOCK_DATA } from "@/_mock/case-studies";
 
 export const CaseStudiesInnerPage = () => {
   const { id } = useParams();

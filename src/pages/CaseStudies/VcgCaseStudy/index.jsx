@@ -1,5 +1,5 @@
-import InnerPagesLayout from "../layout/InnerPagesLayout";
-import { PillsComponent } from "../../components/general/PillsComponent";
+import InnerPagesLayout from "@/layout/InnerPagesLayout";
+import { PillsComponent } from "@/components/general/PillsComponent";
 
 const VcgCaseStudy = () => {
   return (

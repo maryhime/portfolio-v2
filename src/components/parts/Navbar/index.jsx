@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { downloadResume } from "../../../utils/download";
+import { downloadResume } from "@/utils/download";
 import { useHooks } from "./hook";
 
 export const Navbar = ({ close }) => {

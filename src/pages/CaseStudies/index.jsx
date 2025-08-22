@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
-import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
-import { CardContainerComponent } from "../../components/shared/CardContainerComponent";
-import { CaseStudyCardComponent } from "../../components/shared/CaseStudyCardComponent";
+import { MainHeaderComponent } from "@/components/shared/MainHeaderComponent";
+import { CardContainerComponent } from "@/components/shared/CardContainerComponent";
+import { CaseStudyCardComponent } from "@/components/shared/CaseStudyCardComponent";
 import { Outlet } from "react-router-dom";
-import { CASE_STUDIES } from "../../_mock/case-studies";
+import { CASE_STUDIES } from "@/_mock/case-studies";
 
 const CaseStudiesPage = () => {
   return (

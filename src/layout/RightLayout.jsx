@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import { PAGES } from "../../routes";
-import { PageNotFound } from "./../../components/PageNotFound";
-import { ScrollButton } from "../../components/ScrollButton";
+import { PAGES } from "@/routes";
+import { PageNotFound } from "@/components/PageNotFound";
+import { ScrollButton } from "@/components/ScrollButton";
 
 export const RightLayout = () => {
   return (

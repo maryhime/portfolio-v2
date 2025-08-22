@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import { Navbar } from "../components/parts/Navbar";
-import { USER_INFO } from "../_mock/user-info";
-import { Profile } from "../components/parts/Profile";
-import { Socials } from "../components/parts/Socials";
+import { Navbar } from "@/components/parts/Navbar";
+import { USER_INFO } from "@/_mock/user-info";
+import { Profile } from "@/components/parts/Profile";
+import { Socials } from "@/components/parts/Socials";
 
 export const LeftLayout = () => {
   return (

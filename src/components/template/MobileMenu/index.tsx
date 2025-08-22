@@ -1,9 +1,9 @@
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { USER_INFO } from "../../../_mock/user-info";
-import { Profile } from "../../parts/Profile";
-import { Navbar } from "../../parts/Navbar";
-import { Socials } from "../../parts/Socials";
+import { USER_INFO } from "@/_mock/user-info";
+import { Profile } from "@/components/parts/Profile";
+import { Navbar } from "@/components/parts/Navbar";
+import { Socials } from "@/components/parts/Socials";
 
 export const MobileMenu = ({ close }) => {
   return (

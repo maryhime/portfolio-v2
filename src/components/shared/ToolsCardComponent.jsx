@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { CardContainerComponent } from "./CardContainerComponent";
-import { TOOLS } from "../../_mock/tools";
+import { TOOLS } from "@/_mock/tools";
 
 export const ToolsCardComponent = () => {
   return (

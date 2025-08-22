@@ -1,5 +1,5 @@
-import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
-import { ToolsCardComponent } from "../../components/shared/ToolsCardComponent";
+import { MainHeaderComponent } from "@/components/shared/MainHeaderComponent";
+import { ToolsCardComponent } from "@/components/shared/ToolsCardComponent";
 
 const ToolsPage = () => {
   return (

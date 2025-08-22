@@ -1,6 +1,6 @@
-import { IconButtonComponent } from "./general/IconButtonComponent";
+import { IconButtonComponent } from "@/general/IconButtonComponent";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { ButtonComponent } from "./general/ButtonComponent";
+import { ButtonComponent } from "@/general/ButtonComponent";
 
 export const InnerPagesHeader = ({
   title,

@@ -1,4 +1,4 @@
-import { InnerPagesHeader } from "../../components/InnerPagesHeader";
+import { InnerPagesHeader } from "@/components/InnerPagesHeader";
 
 const InnerPagesLayout = ({
   title,
