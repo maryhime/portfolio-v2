@@ -3,29 +3,37 @@ import React from "react";
 import IllustrationPage from "./pages/Illustration/IllustrationPage.jsx";
 import ToolsPage from "./pages/Tools/ToolsPage.jsx";
 import WebDesignPage from "./pages/WebDesign/WebDesignPage";
-import { PageNotFound } from "./components/PageNotFound.jsx";
+import CaseStudiesPage from "./pages/CaseStudies/CaseStudiesPage";
+import GraphicDesignPage from "./pages/GraphicDesign/GraphicDesignPage.jsx";
+
 
 export const PAGES = [
   {
     id: 1,
-    name: "Web Design",
-    component: <WebDesignPage />,
+    name: "Case Studies",
+    component: <CaseStudiesPage/>,
     path: "/",
   },
   {
     id: 2,
-    name: "Studies",
-    component: <PageNotFound />,
-    path: "/case-study",
+    name: "Design Gallery",
+    component: <WebDesignPage />,
+    path: "/design-gallery",
   },
   {
     id: 3,
+    name: "Graphic Design",
+    component: <GraphicDesignPage />,
+    path: "/graphic-design",
+  },
+  {
+    id: 4,
     name: "Illustrations",
     component: <IllustrationPage />,
     path: "/illustrations",
   },
   {
-    id: 4,
+    id: 5,
     name: "Tools",
     component: <ToolsPage />,
     path: "/tools",

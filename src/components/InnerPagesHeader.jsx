@@ -1,40 +1,44 @@
-import React, { Fragment } from 'react'
-import { IconButtonComponent } from './general/IconButtonComponent'
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import { PillsComponent } from './general/PillsComponent'
+import React, { Fragment } from "react";
+import { IconButtonComponent } from "./general/IconButtonComponent";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { PillsComponent } from "./general/PillsComponent";
+import { ButtonComponent } from "./general/ButtonComponent";
 
-export const InnerPagesHeader = ({ title, subtitle, icon1, icon2, hasTwoIcons = false, link1, link2 }) => {
-
-
+export const InnerPagesHeader = ({
+  title,
+  subtitle,
+  hasButton = false,
+  link,
+  backgroundImage,
+}) => {
   return (
-    <div className="flex flex-row justify-between items-center">
-      <div className="flex flex-row gap-24 items-center w-full">
-        <IconButtonComponent icon={faArrowLeft} link={'#'} />
-        <div className="flex flex-col gap-8 w-full">
-          <div className="flex flex-col w-full">
-             <h1 className='text-heading text-title-tablet laptop:text-title uppercase'>
+    <div
+      className={`flex flex-row justify-between gap-48 px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48  ${backgroundImage}`}
+    >
+      <div className="flex flex-row gap-24 w-full">
+        <div className="pt-[3px]">
+          <IconButtonComponent icon={faArrowLeft} link={"#"} />
+        </div>
+        <div className="flex flex-col w-full gap-[12px]">
+          <h1 className="text-title-phone capitalize font-extrabold text-white">
             {title}
           </h1>
-          <p className='text-body text-body-text desktop:text-body-desktop'>
+          <p className="text-primary-100 desktop:text-body-desktop">
             {subtitle}
           </p>
-          </div>
-         
-          <PillsComponent title={'Tailwind'}/>
         </div>
       </div>
 
-      <div className="flex flex-row gap-16">
-        {hasTwoIcons ? (
-          <Fragment>
-            <IconButtonComponent link={link1} iconSvg={icon1} />
-            <IconButtonComponent link={link2} iconSvg={icon2} />
-          </Fragment>
-        ) : (
-          <IconButtonComponent link={link1} iconSvg={icon1} />
-        )}
-
-      </div>
+      {hasButton ? (
+        <ButtonComponent
+          title={"Website Link"}
+          link={link}
+          style={"max-w-[164px] px-[20px] "}
+          target={'_blank'}
+        />
+      ) : (
+        <div className="text-white">aa</div>
+      )}
     </div>
-  )
-}
+  );
+};

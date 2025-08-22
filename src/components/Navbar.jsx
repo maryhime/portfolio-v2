@@ -6,9 +6,9 @@ import { downloadResume } from "../utils/download";
 export const Navbar = ({ close }) => {
   const navStyles = ({ isActive }) => {
     return {
-      backgroundColor: isActive ? "#C081C1" : "",
-      border: isActive ? "" : "1px solid #C081C1",
-      color: isActive ? "#FCFDFC" : "#C081C1",
+      backgroundColor: isActive ? "#FDDDEB" : "",
+      border: isActive ? "1px solid #F399D0" : "1px solid #F399D0",
+      color: isActive ? "#D753BD" : "#D753BD",
     };
   };
 
@@ -21,7 +21,7 @@ export const Navbar = ({ close }) => {
           style={navStyles}
           onClick={close}
           className={
-            "p-8 flex gap-[10px] rounded-button h-button text-button uppercase w-full justify-center items-center "
+            "p-8 flex gap-[10px] rounded-[99px] h-button text-button uppercase w-full justify-center items-center "
           }
         >
           {value.name}
@@ -30,7 +30,7 @@ export const Navbar = ({ close }) => {
       <button
         onClick={downloadResume}
         className={
-          "p-8 flex gap-[10px] rounded-button h-button text-button uppercase w-full justify-center items-center border-solid border-[1px] border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-primary-100"
+          "p-8 flex gap-[10px] rounded-[99px] h-button text-button uppercase w-full justify-center items-center border-solid border-[1px] border-primary-300 text-primary-500 hover:bg-primary-200 hover:text-primary-500"
         }
       >
         Resume

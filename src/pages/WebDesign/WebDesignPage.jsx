@@ -6,12 +6,18 @@ import { CardContainerComponent } from "../../components/general/CardContainerCo
 
 const WebDesignPage = () => {
   return (
-    <div className="phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 flex flex-col w-full">
+    <div className="phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 flex flex-col w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 ">
       <div className=" flex flex-col gap-64">
         <MainHeaderComponent
-          title={"Web Design & Development"}
+          title={
+            <>
+              Website and UI <br /> Design Gallery
+            </>
+          }
           subtitle={
-            "Website Pages and applications that I have created during the course of my career and free time."
+            <>
+              Website Pages and applications that I  have created <br /> during the course of my career and free time.
+            </>
           }
         />
 
@@ -33,7 +39,7 @@ const WebDesignPage = () => {
 
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden hidden">
-          {WEB_DESIGN.slice(0, 8).map((value, index) => (
+          {WEB_DESIGN.slice(0, 11).map((value, index) => (
             <CardContainerComponent key={index}>
               <WebDesignCardComponent
                 title={value.title}
@@ -65,7 +71,7 @@ const WebDesignPage = () => {
 
       {/* laptop */}
       <div className=" laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden hidden">
-        {WEB_DESIGN.slice(8, 16).map((value, index) => (
+        {WEB_DESIGN.slice(11, 22).map((value, index) => (
           <CardContainerComponent key={index} style={"hover:text-primary-500"}>
             <WebDesignCardComponent
               title={value.title}
