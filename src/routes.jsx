@@ -1,14 +1,14 @@
-import IllustrationPage from "./pages/Illustration/IllustrationPage.jsx";
 import ToolsPage from "./pages/Tools/ToolsPage.jsx";
-import GraphicDesignPage from "./pages/GraphicDesign/GraphicDesignPage.jsx";
 import { createBrowserRouter } from "react-router-dom";
-import { MainLayout } from "./pages/layout/MainLayout.js";
+import { MainLayout } from "./layout/MainLayout.js";
 import { WebDesignInnerPage } from "./pages/WebDesign/WebDesignInnerPage/index.jsx";
-import { WebDesignMainLayout } from "./pages/layout/WebDesignMainLayout.js";
+import { WebDesignMainLayout } from "./layout/WebDesignMainLayout.js";
 import { CaseStudiesInnerPage } from "./pages/CaseStudies/CaseStudiesInnerPage/index.js";
-import { CaseStudiesMainLayout } from "./pages/layout/CaseStudiesMainLayout.js";
+import { CaseStudiesMainLayout } from "./layout/CaseStudiesMainLayout.js";
 
 import { PageNotFound } from "./components/PageNotFound.jsx";
+import GraphicDesignPage from "./pages/GraphicDesign/index.jsx";
+import IllustrationPage from "./pages/Illustration/index.jsx";
 
 export const router = createBrowserRouter([
   {
