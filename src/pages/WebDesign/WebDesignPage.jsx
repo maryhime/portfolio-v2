@@ -1,4 +1,3 @@
-import React, { Fragment } from "react";
 import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
 import { WebDesignCardComponent } from "../../components/general/WebDesignCardComponent";
 import { WEB_DESIGN } from "../../utils/data";

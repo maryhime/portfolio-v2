@@ -1,11 +1,26 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const IconButtonComponent = ({icon, iconSvg, style, size='w-[44px] h-[44px]', iconSize, link}) => {
+export const IconButtonComponent = ({
+  icon,
+  iconSvg,
+  style,
+  size = "w-[44px] h-[44px]",
+  iconSize,
+  link,
+}) => {
   return (
-    <a href={link} target='_blank' rel='noreferrer' className={` rounded-[30px] p-[10px] shadow-side-bar bg-background-white ${size} flex justify-center items-center ${style}`}>
-      <FontAwesomeIcon icon={icon} size={iconSize} style={{color: "#591863",}} />
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className={` rounded-[30px] p-[10px] shadow-side-bar bg-background-white ${size} flex justify-center items-center ${style}`}
+    >
+      <FontAwesomeIcon
+        icon={icon}
+        size={iconSize}
+        style={{ color: "#591863" }}
+      />
       <img src={`/icons/${iconSvg}`} alt="" />
     </a>
-  )
-}
+  );
+};

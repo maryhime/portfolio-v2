@@ -8,8 +8,16 @@ import { WebDesignMainLayout } from "./pages/layout/WebDesignMainLayout.js";
 import { CaseStudiesInnerPage } from "./pages/CaseStudies/CaseStudiesInnerPage/index.js";
 import { CaseStudiesMainLayout } from "./pages/layout/CaseStudiesMainLayout.js";
 
+<<<<<<< Updated upstream
 export const router = createBrowserRouter([
   {
+=======
+export const PAGES = [
+  {
+    id: 1,
+    name: "Case Studies",
+    component: <CaseStudiesPage />,
+>>>>>>> Stashed changes
     path: "/",
     Component: MainLayout,
     children: [

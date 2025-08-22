@@ -11,7 +11,6 @@ export const USER_INFO = Object.freeze([
   {
     name: "Mary Therese",
     avatar: "avatar.png",
-    // 'avatar': 'placeholder.svg',
     contacts: [
       {
         icon: "instagram.svg",

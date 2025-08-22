@@ -1,4 +1,3 @@
-import React from "react";
 import InnerPagesLayout from "../layout/InnerPagesLayout";
 import { PillsComponent } from "../../components/general/PillsComponent";
 

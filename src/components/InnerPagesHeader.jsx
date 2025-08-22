@@ -1,7 +1,5 @@
-import React, { Fragment } from "react";
 import { IconButtonComponent } from "./general/IconButtonComponent";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { PillsComponent } from "./general/PillsComponent";
 import { ButtonComponent } from "./general/ButtonComponent";
 
 export const InnerPagesHeader = ({
@@ -34,7 +32,7 @@ export const InnerPagesHeader = ({
           title={"Website Link"}
           link={link}
           style={"max-w-[164px] px-[20px] "}
-          target={'_blank'}
+          target={"_blank"}
         />
       ) : (
         <div className="text-white">aa</div>

@@ -1,14 +1,16 @@
-import React from 'react';
-import { MainHeaderComponent } from '../../components/general/MainHeaderComponent';
+import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
 
 const GraphicDesignPage = () => {
   return (
-  <div className="flex flex-col phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48  ">
-      <div className='flex flex-col gap-64 w-full'>
+    <div className="flex flex-col phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48  ">
+      <div className="flex flex-col gap-64 w-full">
         <MainHeaderComponent
-          title={'Graphic Design'}
-          subtitle={'Recent Digital Illustrations that I created both freelance and personal artworks.'}
-          style={'w-full'} />
+          title={"Graphic Design"}
+          subtitle={
+            "Recent Digital Illustrations that I created both freelance and personal artworks."
+          }
+          style={"w-full"}
+        />
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
           {/* {ILLUSTRATION.slice(0, 5).map((value, index) =>
             <CardContainerComponent
@@ -50,7 +52,6 @@ const GraphicDesignPage = () => {
             </CardContainerComponent>
           )} */}
         </div>
-
       </div>
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden w-full">
@@ -94,9 +95,8 @@ const GraphicDesignPage = () => {
           </CardContainerComponent>
         )} */}
       </div>
-
     </div>
   );
-}
+};
 
 export default GraphicDesignPage;

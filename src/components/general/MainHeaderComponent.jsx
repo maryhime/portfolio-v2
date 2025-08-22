@@ -1,5 +1,3 @@
-import React from "react";
-
 export const MainHeaderComponent = ({ title, subtitle, style }) => {
   return (
     <div className={`flex flex-col gap-16 ${style}`}>
