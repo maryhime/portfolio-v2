@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
 import React, { Fragment } from "react";
 import { IconButtonComponent } from "./IconButtonComponent";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-=======
->>>>>>> Stashed changes
 import { NavLink } from "react-router-dom";
 
 export const WebDesignCardComponent = ({
@@ -16,13 +13,7 @@ export const WebDesignCardComponent = ({
   console.log("id", id);
   return (
     <NavLink
-<<<<<<< Updated upstream
       to={`/design-gallery/${id}`}
-=======
-      to={link}
-      target="_blank"
-      rel="noreferrer"
->>>>>>> Stashed changes
       className="px-24 pt-24 flex flex-col gap-24 w-full justify-between hover:text-primary-500"
     >
       <div className="flex flex-col gap-8 ">

@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 import React, { Fragment } from "react";
-=======
-import { Fragment } from "react";
->>>>>>> Stashed changes
 import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
 import { CardContainerComponent } from "../../components/general/CardContainerComponent";
 import { CaseStudyCardComponent } from "../../components/general/CaseStudyCardComponent";
@@ -22,13 +18,8 @@ const CaseStudiesPage = () => {
         />
 
         <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-24 desktop:gap-48">
-<<<<<<< Updated upstream
           {CASE_STUDIES.map((value) => (
             <CardContainerComponent key={value.id} style={"pb-24"}>
-=======
-          {CASE_STUDIES.map((value, index) => (
-            <CardContainerComponent key={index} style={"pb-24"}>
->>>>>>> Stashed changes
               <CaseStudyCardComponent
                 id={value.id}
                 title={value.title}

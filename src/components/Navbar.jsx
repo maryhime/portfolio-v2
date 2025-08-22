@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-=======
-import { PAGES } from "../routes";
->>>>>>> Stashed changes
 import { NavLink } from "react-router-dom";
 import { downloadResume } from "../utils/download";
 
