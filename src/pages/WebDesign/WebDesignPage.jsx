@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
-import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
-import { WebDesignCardComponent } from "../../components/general/WebDesignCardComponent";
-import { WEB_DESIGN } from "../../utils/data";
-import { CardContainerComponent } from "../../components/general/CardContainerComponent";
+import { MainHeaderComponent } from "@/components/shared/MainHeaderComponent";
+import { WebDesignCardComponent } from "@/components/shared/WebDesignCardComponent";
+import { CardContainerComponent } from "@/components/shared/CardContainerComponent";
+import { Outlet } from "react-router-dom";
+import { WEB_DESIGN } from "@/_mock/web-design";
 
 const WebDesignPage = () => {
   return (
@@ -16,18 +16,20 @@ const WebDesignPage = () => {
           }
           subtitle={
             <>
-              Website Pages and applications that I  have created <br /> during the course of my career and free time.
+              Website Pages and applications that I have created <br /> during
+              the course of my career and free time.
             </>
           }
         />
 
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
-          {WEB_DESIGN.slice(0, 6).map((value, index) => (
+          {WEB_DESIGN.slice(0, 6).map((value) => (
             <CardContainerComponent
-              key={index}
+              key={value.id}
               style={"hover:text-primary-500"}
             >
               <WebDesignCardComponent
+                id={value.id}
                 title={value.title}
                 category={value.desc}
                 image={value.image}
@@ -39,9 +41,10 @@ const WebDesignPage = () => {
 
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden hidden">
-          {WEB_DESIGN.slice(0, 11).map((value, index) => (
-            <CardContainerComponent key={index}>
+          {WEB_DESIGN.slice(0, 11).map((value) => (
+            <CardContainerComponent key={value.id}>
               <WebDesignCardComponent
+                id={value.id}
                 title={value.title}
                 category={value.desc}
                 image={value.image}
@@ -53,12 +56,13 @@ const WebDesignPage = () => {
 
         {/* mobile */}
         <div className="tablet:grid-cols-2 laptop:hidden grid grid-cols-1 gap-24">
-          {WEB_DESIGN.map((value, index) => (
+          {WEB_DESIGN.map((value) => (
             <CardContainerComponent
-              key={index}
+              key={value.id}
               style={"hover:text-primary-500"}
             >
               <WebDesignCardComponent
+                id={value.id}
                 title={value.title}
                 category={value.desc}
                 image={value.image}
@@ -72,8 +76,12 @@ const WebDesignPage = () => {
       {/* laptop */}
       <div className=" laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden hidden">
         {WEB_DESIGN.slice(11, 22).map((value, index) => (
-          <CardContainerComponent key={index} style={"hover:text-primary-500"}>
+          <CardContainerComponent
+            key={value.id}
+            style={"hover:text-primary-500"}
+          >
             <WebDesignCardComponent
+              id={value.id}
               title={value.title}
               category={value.desc}
               image={value.image}
@@ -86,8 +94,12 @@ const WebDesignPage = () => {
       {/* desktop */}
       <div className=" desktop:flex desktop:flex-col desktop:gap-48 hidden">
         {WEB_DESIGN.slice(6, 12).map((value, index) => (
-          <CardContainerComponent key={index} style={"hover:text-primary-500"}>
+          <CardContainerComponent
+            key={value.id}
+            style={"hover:text-primary-500"}
+          >
             <WebDesignCardComponent
+              id={value.id}
               title={value.title}
               category={value.desc}
               image={value.image}
@@ -98,8 +110,12 @@ const WebDesignPage = () => {
       </div>
       <div className=" desktop:flex desktop:flex-col desktop:gap-48 hidden">
         {WEB_DESIGN.slice(12, 16).map((value, index) => (
-          <CardContainerComponent key={index} style={"hover:text-primary-500"}>
+          <CardContainerComponent
+            key={value.id}
+            style={"hover:text-primary-500"}
+          >
             <WebDesignCardComponent
+              id={value.id}
               title={value.title}
               category={value.desc}
               image={value.image}
@@ -108,6 +124,7 @@ const WebDesignPage = () => {
           </CardContainerComponent>
         ))}
       </div>
+      <Outlet />
     </div>
   );
 };
