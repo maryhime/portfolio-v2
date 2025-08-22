@@ -2,6 +2,7 @@ import React from "react";
 import { ButtonComponent } from "./ButtonComponent";
 
 export const CaseStudyCardComponent = ({
+  id,
   title,
   category,
   image,
@@ -25,7 +26,7 @@ export const CaseStudyCardComponent = ({
       </div>
 
       <div className="flex w-full">
-        <ButtonComponent title={"Read More"} link={"#"} style={""} />
+        <ButtonComponent title={"Read More"} link={id} style={""} />
       </div>
     </div>
   );
