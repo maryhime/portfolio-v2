@@ -1,9 +1,8 @@
-import React from "react";
 import { PAGES } from "../routes";
 import { NavLink } from "react-router-dom";
 import { downloadResume } from "../utils/download";
 
-export const Navbar = ({ close }) => {
+export const Navbar = () => {
   const navStyles = ({ isActive }) => {
     return {
       backgroundColor: isActive ? "#FDDDEB" : "",

@@ -1,17 +1,14 @@
-import React from "react";
-
 import IllustrationPage from "./pages/Illustration/IllustrationPage.jsx";
 import ToolsPage from "./pages/Tools/ToolsPage.jsx";
 import WebDesignPage from "./pages/WebDesign/WebDesignPage";
 import CaseStudiesPage from "./pages/CaseStudies/CaseStudiesPage";
 import GraphicDesignPage from "./pages/GraphicDesign/GraphicDesignPage.jsx";
 
-
 export const PAGES = [
   {
     id: 1,
     name: "Case Studies",
-    component: <CaseStudiesPage/>,
+    component: <CaseStudiesPage />,
     path: "/",
   },
   {

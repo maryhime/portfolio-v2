@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { USER_INFO } from "../../utils/data";
 import { Navbar } from "../../components/Navbar";
 import { Profile } from "../../components/Profile";
