@@ -8,7 +8,13 @@ import { WebDesignMainLayout } from "./pages/layout/WebDesignMainLayout.js";
 import { CaseStudiesInnerPage } from "./pages/CaseStudies/CaseStudiesInnerPage/index.js";
 import { CaseStudiesMainLayout } from "./pages/layout/CaseStudiesMainLayout.js";
 
+import { PageNotFound } from "./components/PageNotFound.jsx";
+
 export const router = createBrowserRouter([
+  {
+    path: "*",
+    Component: PageNotFound,
+  },
   {
     path: "/",
     Component: MainLayout,

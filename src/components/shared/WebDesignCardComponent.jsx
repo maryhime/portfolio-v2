@@ -1,6 +1,3 @@
-import React, { Fragment } from "react";
-import { IconButtonComponent } from "./IconButtonComponent";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 
 export const WebDesignCardComponent = ({
@@ -10,7 +7,6 @@ export const WebDesignCardComponent = ({
   image,
   link,
 }) => {
-  console.log("id", id);
   return (
     <NavLink
       to={`/design-gallery/${id}`}
@@ -25,7 +21,6 @@ export const WebDesignCardComponent = ({
       <div className="pt-24 ">
         <img src={`images/${image}`} alt="" className="w-full h-auto" />
       </div>
-      {/* <IconButtonComponent link={link} icon={faChevronRight} /> */}
     </NavLink>
   );
 };

@@ -1,8 +1,8 @@
 import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
 import { WebDesignCardComponent } from "../../components/shared/WebDesignCardComponent";
-import { WEB_DESIGN } from "../../utils/data";
 import { CardContainerComponent } from "../../components/shared/CardContainerComponent";
 import { Outlet } from "react-router-dom";
+import { WEB_DESIGN } from "../../_mock/web-design";
 
 const WebDesignPage = () => {
   return (

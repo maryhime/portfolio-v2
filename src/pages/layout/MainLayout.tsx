@@ -2,9 +2,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
-import { MobileMenu } from "../../components/MobileMenu";
 import { LeftLayout } from "./LeftLayout";
-import { ScrollButton } from "../../components/ScrollButton";
+import { MobileMenu } from "../../components/template/MobileMenu";
+import {ScrollButton} from '../../components/parts/ScrollButton'
 
 export const MainLayout = () => {
   const [openNav, setOpenNav] = useState(false);

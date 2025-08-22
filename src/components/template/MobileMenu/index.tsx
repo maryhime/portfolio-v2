@@ -1,9 +1,9 @@
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { USER_INFO } from "../utils/data";
-import { Profile } from "./Profile";
-import { Socials } from "./Socials";
-import { Navbar } from "./Navbar";
+import { USER_INFO } from "../../../_mock/user-info";
+import { Profile } from "../../parts/Profile";
+import { Navbar } from "../../parts/Navbar";
+import { Socials } from "../../parts/Socials";
 
 export const MobileMenu = ({ close }) => {
   return (
@@ -23,13 +23,8 @@ export const MobileMenu = ({ close }) => {
             key={index}
             className="flex flex-col gap-24 justify-center px-16 phone-lg:max-w-[55%] tablet:max-w-[40%]"
           >
-            {/* Profile Section */}
             <Profile name={value.name} avatar={value.avatar} />
-
-            {/* Navigations */}
             <Navbar close={close} />
-
-            {/*  Social Media Contacts */}
             <Socials contacts={value.contacts} />
           </div>
         ))}
