@@ -1,41 +1,56 @@
-import React from "react";
-
-import IllustrationPage from "./pages/Illustration/IllustrationPage.jsx";
 import ToolsPage from "./pages/Tools/ToolsPage.jsx";
-import WebDesignPage from "./pages/WebDesign/WebDesignPage";
-import CaseStudiesPage from "./pages/CaseStudies/CaseStudiesPage";
-import GraphicDesignPage from "./pages/GraphicDesign/GraphicDesignPage.jsx";
+import { createBrowserRouter } from "react-router-dom";
+import { MainLayout } from "./layout/MainLayout.js";
+import { WebDesignInnerPage } from "./pages/WebDesign/WebDesignInnerPage/index.jsx";
+import { WebDesignMainLayout } from "./layout/WebDesignMainLayout.js";
+import { CaseStudiesInnerPage } from "./pages/CaseStudies/CaseStudiesInnerPage/index.js";
+import { CaseStudiesMainLayout } from "./layout/CaseStudiesMainLayout.js";
 
+import { PageNotFound } from "./components/PageNotFound.jsx";
+import GraphicDesignPage from "./pages/GraphicDesign/index.jsx";
+import IllustrationPage from "./pages/Illustration/index.jsx";
 
-export const PAGES = [
+export const router = createBrowserRouter([
   {
-    id: 1,
-    name: "Case Studies",
-    component: <CaseStudiesPage/>,
+    path: "*",
+    Component: PageNotFound,
+  },
+  {
     path: "/",
+    Component: MainLayout,
+    children: [
+      {
+        path: "/",
+        Component: CaseStudiesMainLayout,
+        children: [
+          {
+            path: ":id",
+            Component: CaseStudiesInnerPage,
+          },
+        ],
+      },
+      {
+        Component: WebDesignMainLayout,
+        path: "design-gallery",
+        children: [
+          {
+            path: ":id",
+            Component: WebDesignInnerPage,
+          },
+        ],
+      },
+      {
+        Component: GraphicDesignPage,
+        path: "/graphic-design",
+      },
+      {
+        Component: IllustrationPage,
+        path: "/illustrations",
+      },
+      {
+        Component: ToolsPage,
+        path: "/tools",
+      },
+    ],
   },
-  {
-    id: 2,
-    name: "Design Gallery",
-    component: <WebDesignPage />,
-    path: "/design-gallery",
-  },
-  {
-    id: 3,
-    name: "Graphic Design",
-    component: <GraphicDesignPage />,
-    path: "/graphic-design",
-  },
-  {
-    id: 4,
-    name: "Illustrations",
-    component: <IllustrationPage />,
-    path: "/illustrations",
-  },
-  {
-    id: 5,
-    name: "Tools",
-    component: <ToolsPage />,
-    path: "/tools",
-  },
-];
+]);
