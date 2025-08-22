@@ -1,7 +1,7 @@
-import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
-import { WebDesignCardComponent } from "../../components/general/WebDesignCardComponent";
+import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
+import { WebDesignCardComponent } from "../../components/shared/WebDesignCardComponent";
 import { WEB_DESIGN } from "../../utils/data";
-import { CardContainerComponent } from "../../components/general/CardContainerComponent";
+import { CardContainerComponent } from "../../components/shared/CardContainerComponent";
 import { Outlet } from "react-router-dom";
 
 const WebDesignPage = () => {

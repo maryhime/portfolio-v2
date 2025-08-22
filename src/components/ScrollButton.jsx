@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IconButtonComponent } from "./general/IconButtonComponent";
+import { IconButtonComponent } from "./shared/IconButtonComponent";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 export const ScrollButton = () => {

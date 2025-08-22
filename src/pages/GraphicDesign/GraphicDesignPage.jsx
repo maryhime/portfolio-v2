@@ -1,4 +1,4 @@
-import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
+import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
 
 const GraphicDesignPage = () => {
   return (

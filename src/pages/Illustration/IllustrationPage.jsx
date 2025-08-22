@@ -1,7 +1,7 @@
-import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
-import { CardContainerComponent } from "../../components/general/CardContainerComponent";
+import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
+import { CardContainerComponent } from "../../components/shared/CardContainerComponent";
 import { ILLUSTRATION } from "../../utils/data";
-import { IllustrationCardComponent } from "../../components/general/IllustrationCardComponent";
+import { IllustrationCardComponent } from "../../components/shared/IllustrationCardComponent";
 
 const IllustrationPage = () => {
   return (

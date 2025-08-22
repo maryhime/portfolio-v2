@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
-import { CardContainerComponent } from "../../components/general/CardContainerComponent";
-import { CaseStudyCardComponent } from "../../components/general/CaseStudyCardComponent";
+import { MainHeaderComponent } from "../../components/shared/MainHeaderComponent";
+import { CardContainerComponent } from "../../components/shared/CardContainerComponent";
+import { CaseStudyCardComponent } from "../../components/shared/CaseStudyCardComponent";
 import { CASE_STUDIES } from "../../utils/data";
 import { Outlet } from "react-router-dom";
 
