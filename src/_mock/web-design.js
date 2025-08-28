@@ -15,7 +15,7 @@ export const WEB_DESIGN = Object.freeze([
   },
   {
     id: 3,
-    title: "Busy Bee Productivity app",
+    title: "Productivity app",
     desc: "Mobile App Design",
     image: "busybee.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",

@@ -156,6 +156,17 @@ export default {
     },
     extend: {
       colors: {
+        // primary: {
+        //   100: "#EFE0F4",
+        //   200: "#E2C7EB",
+        //   300: "#D4ACE2",
+        //   400: "#C950F2",
+        //   500: "#9A34BB",
+        //   600: "#8207AB",
+        //   700: "#5D057A",
+        //   800: "#430458",
+        //   900: "#2D033B",
+        // },
         primary: {
           100: "#FDDDEB",
           200: "#FBBDDD",
@@ -173,6 +184,7 @@ export default {
         "background-gray": "#F8F7F7",
       },
       boxShadow: {
+        // card: "9px 11px 0px rgba(201, 86, 241, 0.25);",
         card: "9px 11px 0px 0px rgba(312, 62, 58, 0.25)",
         "side-bar": "0px 0px 23px 0px rgba(192, 129, 193, 0.15)",
       },

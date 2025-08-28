@@ -18,9 +18,15 @@ export const WebDesignCardComponent = ({
           {category}
         </p>
       </div>
-      <div className="pt-24 ">
-        <img src={`images/${image}`} alt="" className="w-full h-auto" />
+      <div class="pt-24 relative inline-block group">
+        <img
+          src={`images/${image}`}
+          alt=""
+          className="w-full h-auto pointer-events-none select-none"
+          oncontextmenu="return false;"
+        />
       </div>
+
     </NavLink>
   );
 };

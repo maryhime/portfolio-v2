@@ -1,9 +1,9 @@
 export const Profile = ({ name, avatar }) => {
   return (
     <div className="flex flex-col gap-24">
-      <div className=" flex justify-center align-middle desktop:w-full laptop:h-[322px] ">
+      <div className=" flex justify-center align-middle desktop:w-full desktop:h-full laptop:h-[322px] ">
         <img
-          src={`images/${avatar}`}
+          src={`/images/${avatar}`}
           alt="avatar"
           className="rounded-[5px] w-[200px]  laptop:w-full "
         />

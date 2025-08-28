@@ -16,12 +16,8 @@ const IllustrationPage = () => {
         />
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
           {ILLUSTRATION.slice(0, 5).map((value, index) => (
-            <CardContainerComponent
-              key={index}
-              style={"hover:text-primary-500 pb-24"}
-            >
+            <CardContainerComponent key={index} style={"pb-24"}>
               <IllustrationCardComponent
-                title={value.title}
                 image={value.image}
                 date={value.date}
               />
@@ -31,12 +27,8 @@ const IllustrationPage = () => {
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
           {ILLUSTRATION.slice(0, 6).map((value, index) => (
-            <CardContainerComponent
-              key={index}
-              style={"hover:text-primary-500 pb-24"}
-            >
+            <CardContainerComponent key={index} style={"pb-24"}>
               <IllustrationCardComponent
-                title={value.title}
                 image={value.image}
                 date={value.date}
               />
@@ -46,12 +38,8 @@ const IllustrationPage = () => {
         {/* mobile */}
         <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
           {ILLUSTRATION.map((value, index) => (
-            <CardContainerComponent
-              key={index}
-              style={"hover:text-primary-500 pb-24"}
-            >
+            <CardContainerComponent key={index} style={"pb-24"}>
               <IllustrationCardComponent
-                title={value.title}
                 image={value.image}
                 date={value.date}
               />
@@ -62,15 +50,8 @@ const IllustrationPage = () => {
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden w-full">
         {ILLUSTRATION.slice(6, 13).map((value, index) => (
-          <CardContainerComponent
-            key={index}
-            style={"hover:text-primary-500 pb-24"}
-          >
-            <IllustrationCardComponent
-              title={value.title}
-              image={value.image}
-              date={value.date}
-            />
+          <CardContainerComponent key={index} style={"pb-24"}>
+            <IllustrationCardComponent image={value.image} date={value.date} />
           </CardContainerComponent>
         ))}
       </div>
@@ -78,29 +59,15 @@ const IllustrationPage = () => {
       {/* desktop */}
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48 w-full">
         {ILLUSTRATION.slice(4, 9).map((value, index) => (
-          <CardContainerComponent
-            key={index}
-            style={"hover:text-primary-500 pb-24"}
-          >
-            <IllustrationCardComponent
-              title={value.title}
-              image={value.image}
-              date={value.date}
-            />
+          <CardContainerComponent key={index} style={" pb-24"}>
+            <IllustrationCardComponent image={value.image} date={value.date} />
           </CardContainerComponent>
         ))}
       </div>
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48 w-full">
         {ILLUSTRATION.slice(9, 13).map((value, index) => (
-          <CardContainerComponent
-            key={index}
-            style={"hover:text-primary-500 pb-24"}
-          >
-            <IllustrationCardComponent
-              title={value.title}
-              image={value.image}
-              date={value.date}
-            />
+          <CardContainerComponent key={index} style={"pb-24"}>
+            <IllustrationCardComponent image={value.image} date={value.date} />
           </CardContainerComponent>
         ))}
       </div>

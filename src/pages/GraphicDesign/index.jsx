@@ -1,4 +1,7 @@
 import { MainHeaderComponent } from "@/components/shared/MainHeaderComponent";
+import { GRAPHIC_DESIGN } from "@/_mock/graphic-design";
+import { CardContainerComponent } from "@/components/shared/CardContainerComponent";
+import GraphicDesignCard from "@/components/shared/GraphicDesignCard";
 
 const GraphicDesignPage = () => {
   return (
@@ -12,88 +15,73 @@ const GraphicDesignPage = () => {
           style={"w-full"}
         />
         <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
-          {/* {ILLUSTRATION.slice(0, 5).map((value, index) =>
+          {GRAPHIC_DESIGN.slice(0, 5).map((value, index) => (
             <CardContainerComponent
               key={index}
-              style={'hover:text-primary-500 pb-24'}>
-              <IllustrationCardComponent
+              style={"hover:text-primary-500 pb-24"}
+            >
+              <GraphicDesignCard
                 title={value.title}
+                subtitle={value.subtitle}
                 image={value.image}
-                date={value.date}
+                desc={value.desc}
               />
             </CardContainerComponent>
-          )} */}
+          ))}
         </div>
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 hidden desktop:hidden">
-          {/* {ILLUSTRATION.slice(0, 6).map((value, index) =>
-            <CardContainerComponent
-              key={index}
-              style={'hover:text-primary-500 pb-24'}>
-              <IllustrationCardComponent
+          {GRAPHIC_DESIGN.slice(0, 5).map((value, index) => (
+            <CardContainerComponent key={index}>
+              <GraphicDesignCard
                 title={value.title}
+                subtitle={value.subtitle}
                 image={value.image}
-                date={value.date}
+                desc={value.desc}
               />
             </CardContainerComponent>
-          )} */}
+          ))}
         </div>
         {/* mobile */}
         <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
-          {/* {ILLUSTRATION.map((value, index) =>
-            <CardContainerComponent
-              key={index}
-              style={'hover:text-primary-500 pb-24'}>
-              <IllustrationCardComponent
+          {GRAPHIC_DESIGN.map((value, index) => (
+            <CardContainerComponent key={index}>
+              <GraphicDesignCard
                 title={value.title}
+                subtitle={value.subtitle}
                 image={value.image}
-                date={value.date}
+                desc={value.desc}
               />
             </CardContainerComponent>
-          )} */}
+          ))}
         </div>
       </div>
       {/* laptop */}
       <div className=" hidden laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden w-full">
-        {/* {ILLUSTRATION.slice(6, 13).map((value, index) =>
-          <CardContainerComponent
-            key={index}
-            style={'hover:text-primary-500 pb-24'}>
-            <IllustrationCardComponent
+        {GRAPHIC_DESIGN.slice(5, 9).map((value, index) => (
+          <CardContainerComponent key={index}>
+            <GraphicDesignCard
               title={value.title}
+              subtitle={value.subtitle}
               image={value.image}
-              date={value.date}
+              desc={value.desc}
             />
           </CardContainerComponent>
-        )} */}
+        ))}
       </div>
 
       {/* desktop */}
       <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48 w-full">
-        {/* {ILLUSTRATION.slice(4, 9).map((value, index) =>
-          <CardContainerComponent
-            key={index}
-            style={'hover:text-primary-500 pb-24'}>
-            <IllustrationCardComponent
+        {GRAPHIC_DESIGN.slice(5, 9).map((value, index) => (
+          <CardContainerComponent key={index}>
+            <GraphicDesignCard
               title={value.title}
+              subtitle={value.subtitle}
               image={value.image}
-              date={value.date}
+              desc={value.desc}
             />
           </CardContainerComponent>
-        )} */}
-      </div>
-      <div className=" hidden desktop:flex desktop:flex-col desktop:gap-48 w-full">
-        {/* {ILLUSTRATION.slice(9, 13).map((value, index) =>
-          <CardContainerComponent
-            key={index}
-            style={'hover:text-primary-500 pb-24'}>
-            <IllustrationCardComponent
-              title={value.title}
-              image={value.image}
-              date={value.date}
-            />
-          </CardContainerComponent>
-        )} */}
+        ))}
       </div>
     </div>
   );

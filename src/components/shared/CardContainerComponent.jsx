@@ -3,7 +3,10 @@ export const CardContainerComponent = ({ children, style }) => {
     <div
       className={`rounded-card border border-primary-500 bg-background-white shadow-card flex flex-col gap-48  text-heading  ${style}`}
     >
-      {children}
+      <div className="relative inline-block group">
+        {children}
+      </div>
+
     </div>
   );
 };
