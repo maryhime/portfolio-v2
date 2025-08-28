@@ -3,7 +3,7 @@ import { ToolsCardComponent } from "@/components/shared/ToolsCardComponent";
 
 const ToolsPage = () => {
   return (
-    <div className="flex flex-col gap-24 laptop:gap-48 laptop-lg:gap-64 desktop:gap-64 w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 ">
+    <div className="flex flex-col gap-24 laptop:gap-48 laptop-lg:gap-48 desktop:gap-64 w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 ">
       <MainHeaderComponent
         title={"Tools"}
         subtitle={
