@@ -14,13 +14,13 @@ const navPages = [
     name: "Graphic Design",
     path: "/graphic-design",
   },
+  // {
+  //   id: 4,
+  //   name: "Illustrations",
+  //   path: "/illustrations",
+  // },
   {
     id: 4,
-    name: "Illustrations",
-    path: "/illustrations",
-  },
-  {
-    id: 5,
     name: "Tools",
     path: "/tools",
   },

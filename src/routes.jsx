@@ -8,7 +8,7 @@ import { CaseStudiesMainLayout } from "./layout/CaseStudiesMainLayout.js";
 
 import { PageNotFound } from "./components/PageNotFound.jsx";
 import GraphicDesignPage from "./pages/GraphicDesign/index.jsx";
-import IllustrationPage from "./pages/Illustration/index.jsx";
+
 
 export const router = createBrowserRouter([
   {
@@ -42,10 +42,6 @@ export const router = createBrowserRouter([
       {
         Component: GraphicDesignPage,
         path: "/graphic-design",
-      },
-      {
-        Component: IllustrationPage,
-        path: "/illustrations",
       },
       {
         Component: ToolsPage,
