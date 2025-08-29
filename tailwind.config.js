@@ -72,21 +72,27 @@ export default {
         },
       ],
       "heading-study": [
-        "24px",
+        "22px",
         {
-          lineHeight: "normal",
+          lineHeight: "27px",
           letterSpacing: "auto",
-          fontWeight: "600",
-
+          fontWeight: "700",
+        },
+      ],
+      "heading-study-sm": [
+        "18px",
+        {
+          lineHeight: "19px",
+          letterSpacing: "auto",
+          fontWeight: "700",
         },
       ],
       "body-study": [
-        "20px",
+        "16px",
         {
           lineHeight: "1.5",
           letterSpacing: "auto",
           fontWeight: "500",
-
         },
       ],
       category: [
@@ -145,13 +151,28 @@ export default {
           fontWeight: "800",
         },
       ],
-      'case-study-card': [
+      "case-study-card": [
         "24px",
         {
           lineHeight: "1.40",
           letterSpacing: "0px",
           fontWeight: "800",
         },
+      ],
+      "study-nav-heading": [
+        '16px',
+        {
+          lineHeight: 1.7,
+          letterSpacing: 0,
+          fontWeight: '700',
+        }
+      ],
+      "study-nav-body": [
+        '14px',
+        {
+          letterSpacing: 0,
+          fontWeight: '500',
+        }
       ],
     },
     extend: {
