@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 export const IconButtonComponent = ({
   icon,
@@ -9,18 +10,17 @@ export const IconButtonComponent = ({
   link,
 }) => {
   return (
-    <a
+    <Link
       href={link}
       rel="noreferrer"
       className={` rounded-[30px] p-[10px] shadow-side-bar bg-background-white ${size} flex justify-center items-center ${style}`}
     >
-
       <FontAwesomeIcon
         icon={icon}
         size={iconSize}
-        style={{ color: '#D753BD' }}
+        style={{ color: "#D753BD" }}
       />
       <img src={`/icons/${iconSvg}`} alt="" />
-    </a>
+    </Link>
   );
 };

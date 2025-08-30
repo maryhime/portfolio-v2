@@ -23,6 +23,7 @@ export const WebDesignInnerPage = () => {
         backgroundImage={"bg-[url('/images/inner-banner-gallery.jpg')]"}
         link={design.link}
         external_link={design.hasLink}
+        key={design.id}
       />
 
       <div className="px-24 pb-48 tablet:px-48 tablet:pb-48 laptop:pb-64 laptop:px-48 flex flex-col gap-[32px]">
