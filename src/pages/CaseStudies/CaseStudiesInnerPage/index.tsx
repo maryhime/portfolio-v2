@@ -47,20 +47,20 @@ const sections = [
     id: "designs",
     label: "Final Designs",
     children: [
-      { id: "questions", label: "Homepage Design" },
-      { id: "competitor", label: "Careers Page" },
-      { id: "personas", label: "blog page and blog posts" },
+      { id: "home-design", label: "Homepage Design" },
+      { id: "career-design", label: "Careers Page" },
+      { id: "blog-design", label: "blog page and blog posts" },
     ],
   },
   {
     id: "results",
     label: "Results",
     children: [
-      { id: "questions", label: "User Feedback & Improvements" },
-      { id: "competitor", label: "Implementation & Development" },
-      { id: "personas", label: "admin interface of the calculator" },
-      { id: "personas", label: "Did the site launch?" },
-      { id: "personas", label: "feedbacks" },
+      { id: "improvements", label: "User Feedback & Improvements" },
+      { id: "development", label: "Implementation & Development" },
+      { id: "admin", label: "admin interface of the calculator" },
+      { id: "launch", label: "Did the site launch?" },
+      { id: "feedback", label: "Client feedbacks" },
     ],
   },
   {
@@ -419,15 +419,14 @@ export const CaseStudiesInnerPage = () => {
             <div id="home-wireframe" className="flex flex-col gap-24">
               <div className="flex flex-col gap-8">
                 <h3 className="text-heading-study-sm font-extrabold text-primary-700 uppercase">
-                Initial Homepage Wireframe
-              </h3>
-              <div className="flex flex-col gap-8">
-                {caseStudies.home_wireframe_desc.map((value) => (
-                  <p className="text-body-study text-body-text">{value}</p>
-                ))}
+                  Initial Homepage Wireframe
+                </h3>
+                <div className="flex flex-col gap-8">
+                  {caseStudies.home_wireframe_desc.map((value) => (
+                    <p className="text-body-study text-body-text">{value}</p>
+                  ))}
+                </div>
               </div>
-              </div>
-
 
               <div className=" flex flex-col gap-16">
                 <img
@@ -436,22 +435,23 @@ export const CaseStudiesInnerPage = () => {
                   width={"100%"}
                 />
 
-                 <p className="text-[14px] font-normal italic text-body-text">{caseStudies.home_wireframe_caption}</p>
+                <p className="text-[14px] font-normal italic text-body-text">
+                  {caseStudies.home_wireframe_caption}
+                </p>
               </div>
             </div>
 
             <div id="calc-wireframe" className="flex flex-col gap-24">
               <div className="flex flex-col gap-8">
                 <h3 className="text-heading-study-sm font-extrabold text-primary-700 uppercase">
-                Initial Savings Calculator Wireframe
-              </h3>
-              <div className="flex flex-col gap-8">
-                {caseStudies.calc_wireframe_desc.map((value) => (
-                  <p className="text-body-study text-body-text">{value}</p>
-                ))}
+                  Initial Savings Calculator Wireframe
+                </h3>
+                <div className="flex flex-col gap-8">
+                  {caseStudies.calc_wireframe_desc.map((value) => (
+                    <p className="text-body-study text-body-text">{value}</p>
+                  ))}
+                </div>
               </div>
-              </div>
-
 
               <div className=" flex flex-col gap-16">
                 <img
@@ -460,15 +460,163 @@ export const CaseStudiesInnerPage = () => {
                   width={"100%"}
                 />
 
-                 <p className="text-[14px] font-normal italic text-body-text">{caseStudies.calc_wireframe_caption}</p>
+                <p className="text-[14px] font-normal italic text-body-text">
+                  {caseStudies.calc_wireframe_caption}
+                </p>
               </div>
             </div>
 
+            <div id="other-wireframe" className="flex flex-col gap-24">
+              <div className="flex flex-col gap-8">
+                <h3 className="text-heading-study-sm font-extrabold text-primary-700 uppercase">
+                  Other Page Wireframes
+                </h3>
+                <div className="flex flex-col gap-8">
+                  {caseStudies.other_wireframe_desc.map((value) => (
+                    <p className="text-body-study text-body-text">{value}</p>
+                  ))}
+                </div>
+              </div>
+
+              <div className=" flex flex-col gap-24">
+                {caseStudies.other_wireframe_imgs.map((value) => (
+                  <img
+                    src={`/images/case-studies/${value}`}
+                    alt=""
+                    width={"100%"}
+                    className="rounded-[8px]"
+                  />
+                ))}
+              </div>
+            </div>
           </section>
 
-          <section id="designs" className="flex flex-col gap-[32px]"></section>
+          <hr className="border border-primary-100 my-16" />
 
-          <section id="results" className="flex flex-col gap-[32px]"></section>
+          <section id="designs" className="flex flex-col gap-[32px]">
+            <h3 className="text-tools-card text-[26px] font-extrabold text-primary-500 uppercase">
+              Final Designs
+            </h3>
+
+            <div className="flex flex-col gap-[32px]">
+              <div className="flex flex-col gap-8">
+                <h3 className="text-heading-study-sm font-extrabold text-primary-700 uppercase">
+                  Final Hi-Fidelity Design
+                </h3>
+                <div className="flex flex-col gap-8">
+                  {caseStudies.final_design_desc.map((value) => (
+                    <p className="text-body-study text-body-text">{value}</p>
+                  ))}
+                </div>
+              </div>
+
+              <div id="home-design" className=" flex flex-col gap-16">
+                <div className="flex gap-16">
+                  {caseStudies.home_design.map((value) => (
+                    <img
+                      src={`/images/case-studies/${value}`}
+                      alt=""
+                      width={"100%"}
+                      className="rounded-[8px]"
+                    />
+                  ))}
+                </div>
+                <p className="text-[14px] font-normal italic text-body-text">
+                  {caseStudies.home_design_caption}
+                </p>
+              </div>
+
+              <div id="career-design" className=" flex flex-col gap-16">
+                <div className="flex gap-16">
+                  {caseStudies.career_design.map((value) => (
+                    <img
+                      src={`/images/case-studies/${value}`}
+                      alt=""
+                      width={"100%"}
+                      className="rounded-[8px]"
+                    />
+                  ))}
+                </div>
+                <p className="text-[14px] font-normal italic text-body-text">
+                  {caseStudies.career_design_caption}
+                </p>
+              </div>
+
+              <div id="blog-design" className=" flex flex-col gap-16">
+                <div className="flex gap-16">
+                  {caseStudies.blog_design.map((value) => (
+                    <img
+                      src={`/images/case-studies/${value}`}
+                      alt=""
+                      width={"100%"}
+                      className="rounded-[8px]"
+                    />
+                  ))}
+                </div>
+                <p className="text-[14px] font-normal italic text-body-text">
+                  {caseStudies.blog_design_caption}
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <hr className="border border-primary-100 my-8" />
+
+          <section id="results" className="flex flex-col gap-[32px]">
+            <h3 className="text-tools-card text-[26px] font-extrabold text-primary-500 uppercase">
+              Results
+            </h3>
+
+            <div id="improvements" className="flex flex-col gap-8">
+              <h3 className="text-heading-study-sm font-extrabold text-primary-700 uppercase">
+                User Feedback & Improvements
+              </h3>
+              <div className="flex flex-col gap-8">
+                {caseStudies.improvements.map((value) => (
+                  <p className="text-body-study text-body-text">{value}</p>
+                ))}
+              </div>
+            </div>
+            <div id="development" className="flex flex-col gap-16">
+              <div className="flex flex-col gap-8">
+                <h3 className="text-heading-study-sm font-extrabold text-primary-700 uppercase">
+                  Implementation & Development
+                </h3>
+                <div className="flex flex-col gap-8">
+                  {caseStudies.development_overview.map((value) => (
+                    <p className="text-body-study text-body-text">{value}</p>
+                  ))}
+                </div>
+                <ul className="pl-24">
+                  {caseStudies.plugin_list.map((value) => (
+                    <li className="text-body-study text-body-text list-disc  ">
+                      {value}
+                    </li>
+                  ))}
+                </ul>
+                <div className="flex flex-col gap-8">
+                  {caseStudies.development_cont.map((value) => (
+                    <p className="text-body-study text-body-text">{value}</p>
+                  ))}
+                </div>
+              </div>
+              <div  className=" flex flex-col gap-16">
+                <div className="flex flex-col gap-16">
+                  {caseStudies.calc_design.map((value) => (
+                    <img
+                      src={`/images/case-studies/${value}`}
+                      alt=""
+                      width={"100%"}
+                      className="rounded-[8px]"
+                    />
+                  ))}
+                </div>
+                <p className="text-[14px] font-normal italic text-body-text">
+                  {caseStudies.calc_design_caption}
+                </p>
+              </div>
+            </div>
+          </section>
 
           <section
             id="learnings"

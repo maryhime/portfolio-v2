@@ -99,16 +99,69 @@ export const CASE_STUDIES_MOCK_DATA = [
       "The design was iterative—evolving over time as feedback was gathered and the vision became clearer. I also incorporated elements inspired by the client’s preferred reference websites, ensuring the direction aligned with their expectations for the final look and feel.",
       "Below is an early version of the homepage wireframe, which served as the foundation for the high-fidelity design that followed.",
     ],
-    home_wireframe: 'vcg/wireframes/home-wireframe.jpg',
-    home_wireframe_caption: 'Early version of the homepage wireframe showing basic layout and content structure. Focus was placed on a strong hero section, clear value proposition, and intuitive navigation paths for key user groups.',
+    home_wireframe: "vcg/wireframes/home-wireframe.jpg",
+    home_wireframe_caption:
+      "Early version of the homepage wireframe showing basic layout and content structure. Focus was placed on a strong hero section, clear value proposition, and intuitive navigation paths for key user groups.",
 
     calc_wireframe_desc: [
       "In addition to the core subpages, the Savings Calculator was one of the most critical features of the website. It was designed to allow potential clients to estimate and compare costs based on the BPO services they were interested in—helping them understand the value of outsourcing with VCG.",
       "This page presented a unique design challenge. While the old site included a calculator, it was non-functional and lacked clarity. Moreover, finding strong reference examples in similar industries was difficult, which meant I had to design a custom solution from scratch.",
       "Working closely with the client, I translated their functional requirements into a user-friendly interface that aligned with the site’s overall design system. The result was a calculator that is both intuitive to use and aligned with business goals, offering clarity to users while maintaining visual consistency.",
     ],
-    calc_wireframe: 'vcg/wireframes/calc-wireframe.jpg',
-    calc_wireframe_caption: 'The initial wireframe version of the calculator, where the core layout and user flow began to take shape.',
+    calc_wireframe: "vcg/wireframes/calc-wireframe.jpg",
+    calc_wireframe_caption:
+      "The initial wireframe version of the calculator, where the core layout and user flow began to take shape.",
+
+    other_wireframe_desc: [
+      "Beyond the homepage and savings calculator, I also designed wireframes for several key subpages to ensure consistency, clarity, and a smooth user experience across the entire website.",
+      "These pages were designed with user intent in mind—whether it was to learn more about the company, explore services, get in touch, or read testimonials. Each layout follows a clear information hierarchy and includes strategic placements for CTAs, trust elements, and navigation to support both user needs and business goals.",
+    ],
+
+    other_wireframe_imgs: [
+      "vcg/wireframes/booking-wireframe.jpg",
+      "vcg/wireframes/services-wireframe.jpg",
+      "vcg/wireframes/blogs-wireframe.jpg",
+      "vcg/wireframes/blogs-page-wireframe.jpg",
+    ],
+
+    final_design_desc: [
+      "Before moving into the final visual design, I ensured that the wireframes were fully aligned with the client’s expectations. Gathering feedback at the wireframe stage allowed for easier adjustments to layout and user flow—without being distracted by color, typography, or visual elements.",
+      "I wanted to validate the user experience and content structure first, knowing that jumping into visual design too early might shift the focus away from usability.",
+      "Once the wireframes were approved, I transitioned into creating the high-fidelity designs, incorporating the brand's colors, typography, imagery, and visual identity. Throughout this phase, I maintained an iterative approach, regularly presenting progress to the client and incorporating feedback to refine both usability and aesthetics.",
+      "The final designs were then built using Elementor Pro on WordPress, ensuring that the live website closely matched the approved high-fidelity mockups while remaining responsive, fast, and easy to manage.",
+    ],
+
+    home_design: ["vcg/designs/Home 1.jpg", "vcg/designs/Home 2.jpg"],
+    home_design_caption: "Final design of the homepage",
+
+    career_design: ["vcg/designs/Careers 1.jpg", "vcg/designs/Careers 2.jpg"],
+    career_design_caption: "Final design of the Careers page",
+
+    blog_design: ["vcg/designs/Blogs.jpg", "vcg/designs/Blog Post.jpg"],
+    blog_design_caption: "Final design of the blog page and blog posts",
+
+    improvements: [
+      "User testing was conducted during the QA phase using the staging site before launch. Most of the feedback centered around minor UI issues, such as image overflow on smaller screens and spacing inconsistencies—common refinements in the final development stage.",
+      "While I no longer have visual documentation from user testing (as this project was completed the year prior), feedback from both the client and test users helped refine key features—especially the Savings Calculator. Minor adjustments were made to improve clarity, flow, and responsiveness based on user input.",
+      "There were no major concerns regarding the overall user experience, which validated the effectiveness of the initial UX design and layout structure. The project concluded successfully, and the client later referred me to a sister company for a similar website revamp—further confirming the positive impact of the final product.",
+    ],
+
+    development_overview: [
+      "To ensure a smooth transition from the old website, I first implemented the new design on the client’s staging site, allowing for development and testing without interrupting the existing live site.",
+      "The website was built using WordPress with Elementor Pro, leveraging its theme builder for layout flexibility and visual consistency. I integrated key plugins to support functionality and performance, including:",
+    ],
+    plugin_list: [
+      "Yoast SEO – for on-page optimization and metadata control",
+      "Advanced Custom Fields (ACF) – to manage dynamic content like forms and case studies",
+      "Various optimization tools – to enhance load speed and responsiveness",
+    ],
+    development_cont: [
+      "After development, I used Google PageSpeed Insights to identify performance bottlenecks and optimize the site for a faster, smoother user experience.",
+      "One of the most complex components was the Savings Calculator. The previous version was a broken custom plugin, and the original developer was no longer reachable. Since I don’t specialize in WordPress plugin development, I offered an alternative: I built a custom calculator using React.js and Material Tailwind, then embedded it into the site using an iframe.",
+    ],
+
+    calc_design: ['vcg/designs/Savings Calculator Empty - Version 4.jpg', 'vcg/designs/Savings Calculator - Version 6.jpg'],
+    calc_design_caption: 'Final design of the Savings Calculator',
   },
 ];
 
