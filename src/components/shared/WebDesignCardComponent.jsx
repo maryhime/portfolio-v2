@@ -6,10 +6,15 @@ export const WebDesignCardComponent = ({
   category,
   image,
   link,
+  hasInnerPage,
 }) => {
+  console.log("title : ", title);
+  console.log("hasInnerPage : ", hasInnerPage);
+
   return (
     <NavLink
-      to={`/design-gallery/${id}`}
+      to={hasInnerPage ? `/design-gallery/${id}` : link}
+      target={!hasInnerPage && "_blank"}
       className="px-24 pt-24 flex flex-col gap-24 w-full justify-between hover:text-primary-500"
     >
       <div className="flex flex-col gap-8 ">
@@ -26,7 +31,6 @@ export const WebDesignCardComponent = ({
           oncontextmenu="return false;"
         />
       </div>
-
     </NavLink>
   );
 };

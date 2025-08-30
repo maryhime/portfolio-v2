@@ -352,6 +352,7 @@ export const DESIGN_GALLERY_MOCK_DATA = [
 
     has_typography: false,
     typography: "typography-urbanist.png",
+
     typography_color_1: "bg-[#FF4545] border-[#FF4545]",
     typography_color_2: "bg-[#2E2E2E] border-[#2E2E2E]",
 

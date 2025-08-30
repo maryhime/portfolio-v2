@@ -9,15 +9,11 @@ const WebDesignPage = () => {
     <div className="phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 flex flex-col w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 desktop:p-64 ">
       <div className=" flex flex-col gap-64">
         <MainHeaderComponent
-          title={
-            <>
-              Website and UI Design Gallery
-            </>
-          }
+          title={<>Website and UI Design Gallery</>}
           subtitle={
             <>
-              Website Pages and applications that I have created during
-              the course of my career and free time.
+              Website Pages and applications that I have created during the
+              course of my career and free time.
             </>
           }
         />
@@ -35,6 +31,7 @@ const WebDesignPage = () => {
                 category={value.desc}
                 image={value.image}
                 link={value.link}
+                hasInnerPage={value.hasInnerPage}
               />
             </CardContainerComponent>
           ))}
@@ -50,6 +47,7 @@ const WebDesignPage = () => {
                 category={value.desc}
                 image={value.image}
                 link={value.link}
+                hasInnerPage={value.hasInnerPage}
               />
             </CardContainerComponent>
           ))}
@@ -68,6 +66,7 @@ const WebDesignPage = () => {
                 category={value.desc}
                 image={value.image}
                 link={value.link}
+                hasInnerPage={value.hasInnerPage}
               />
             </CardContainerComponent>
           ))}
@@ -87,6 +86,7 @@ const WebDesignPage = () => {
               category={value.desc}
               image={value.image}
               link={value.link}
+              hasInnerPage={value.hasInnerPage}
             />
           </CardContainerComponent>
         ))}
@@ -105,6 +105,7 @@ const WebDesignPage = () => {
               category={value.desc}
               image={value.image}
               link={value.link}
+              hasInnerPage={value.hasInnerPage}
             />
           </CardContainerComponent>
         ))}
@@ -121,6 +122,7 @@ const WebDesignPage = () => {
               category={value.desc}
               image={value.image}
               link={value.link}
+              hasInnerPage={value.hasInnerPage}
             />
           </CardContainerComponent>
         ))}

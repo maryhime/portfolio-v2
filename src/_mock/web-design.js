@@ -5,6 +5,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "appliance.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "realtor.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Mobile App Design",
     image: "busybee.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "blockstar.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Mobile App Design Exercise",
     image: "mobileexercise.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "livecopier.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "leadexcess.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "dewha.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "starbugs.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=38-986&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=38%3A986&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 10,
@@ -68,6 +77,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "terraAndember.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=61-11239&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=61%3A11239&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 11,
@@ -75,6 +85,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "mirondigital.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=64-9563&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=64%3A9563&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 12,
@@ -82,6 +93,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "rebank.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=59-1933&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=59%3A1933&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 13,
@@ -89,6 +101,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Design & wordpress development: oxygen builder",
     image: "nmsdesign.png",
     link: "http://design.nmscreative.com/",
+    hasInnerPage: true,
   },
   {
     id: 14,
@@ -96,12 +109,15 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "juicelabs.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=64-3608&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=64%3A3608&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 15,
     title: "montrose sar",
     desc: "wordpress development: elementor pro",
     image: "msar.png",
+
+    hasInnerPage: false,
     link: "https://montrosesar.org/",
   },
   {
@@ -109,6 +125,7 @@ export const WEB_DESIGN = Object.freeze([
     title: "So-cal ponds",
     desc: "wordpress development: oxygen builder",
     image: "socalponds.png",
+    hasInnerPage: false,
     link: "https://socalponds.com/",
   },
   {
@@ -117,6 +134,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design and Development",
     image: "recozy.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=64-9167&viewport=556%2C135%2C0.03&t=rYSgdqPdjWpwE3n0-1&scaling=scale-down&starting-point-node-id=64%3A9167&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 18,
@@ -124,6 +142,7 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design and Development",
     image: "hypeburger.png",
     link: "https://hypeburger.vercel.app",
+    hasInnerPage: true,
   },
   {
     id: 19,
@@ -131,12 +150,14 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design and Development",
     image: "Hyperare.png",
     link: "https://hyperare.vercel.app/",
+    hasInnerPage: true,
   },
   {
     id: 20,
     title: "My Allied Health Academy",
     desc: "Web Application Design",
     image: "MAHA.png",
+    hasInnerPage: false,
     link: "http://design.nmscreative.com/my-allied-health-academy/",
   },
   {
@@ -145,12 +166,14 @@ export const WEB_DESIGN = Object.freeze([
     desc: "Landing Page Design",
     image: "happy-wally.png",
     link: "https://www.figma.com/proto/nm5lmRsdzof13EMS0oYZpy/Web-Design-Prototypes?page-id=0%3A1&type=design&node-id=36-6519&viewport=1149%2C-77%2C0.13&t=e2ckE3shACYMrt12-1&scaling=scale-down&starting-point-node-id=36%3A6519&show-proto-sidebar=1&mode=design",
+    hasInnerPage: true,
   },
   {
     id: 22,
     title: "TribeTXT",
     desc: "Web Application Design",
     image: "tribetxt.png",
+    hasInnerPage: false,
     link: "http://design.nmscreative.com/tribetxt/",
   },
 ]);
