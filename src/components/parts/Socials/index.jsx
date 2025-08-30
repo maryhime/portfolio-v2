@@ -6,7 +6,7 @@ export const Socials = ({ contacts }) => {
       {contacts.map((icons, index) => (
         <NavLink key={index} to={icons.link} target="_blank" rel="noreferrer">
           <img
-            src={`icons/${icons.icon}`}
+            src={`/icons/${icons.icon}`}
             className=" w-[24px] h-[24px] desktop:w-[32px] desktop:h-[32px]"
           />
         </NavLink>

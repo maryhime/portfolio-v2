@@ -23,7 +23,7 @@ export const Navbar = ({ close }) => {
       <button
         onClick={downloadResume}
         className={
-          "p-8 flex gap-[10px] rounded-[99px] h-button text-button uppercase w-full justify-center items-center border-solid border-[1px] border-primary-300 text-primary-500 hover:bg-primary-200 hover:text-primary-500"
+          "p-8 flex gap-[10px] rounded-[99px] h-button text-button uppercase w-full justify-center items-center border-solid border-[1px] border-primary-300 text-primary-500 hover:bg-primary-200 hover:text-primary-500 col-span-2"
         }
       >
         Resume
