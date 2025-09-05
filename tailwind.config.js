@@ -160,19 +160,19 @@ export default {
         },
       ],
       "study-nav-heading": [
-        '16px',
+        "16px",
         {
           lineHeight: 1.7,
           letterSpacing: 0,
-          fontWeight: '700',
-        }
+          fontWeight: "700",
+        },
       ],
       "study-nav-body": [
-        '14px',
+        "14px",
         {
           letterSpacing: 0,
-          fontWeight: '500',
-        }
+          fontWeight: "500",
+        },
       ],
     },
     extend: {
@@ -214,6 +214,7 @@ export default {
       },
       backgroundImage: {
         vcg: "url('/images/case-studies/thumbnails/header-bg-vcg.png')",
+        lfc: "url('/images/case-studies/thumbnails/header-bg-lfc.jpg')",
       },
     },
   },
