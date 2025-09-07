@@ -34,7 +34,7 @@ export const CASE_STUDIES_MOCK_DATA = [
     project_link: "https://virtualchamps.com/",
     header_bg: 'bg-vcg bg-cover no-repeat',
 
-    button_style: "!bg-[#4691FB] hover:!bg-[#0650B8]",
+    button_style: "!bg-[#4691FB] hover:!bg-[#0650B8] ",
     color_theme: "#4691FB",
 
     project_overview: "vcg/parts/vcg-project-overview.jpg",
@@ -70,7 +70,7 @@ export const CASE_STUDIES = Object.freeze([
     title:
       "Virtual Champ 2.0: A Revamp Built to Engage",
     category: "Website Revamp",
-    desc: "A full website revamp to modernize UX, showcase brand growth, and reach global audiences.",
+    desc: "A full website revamp to modernize UX, brand growth, and  global audiences.",
     image: "vcg thumbnail.png",
     link: "#",
   },

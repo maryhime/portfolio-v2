@@ -10,7 +10,7 @@ export const LeftLayout = () => {
       {USER_INFO.map((value, index) => (
         <div
           key={index}
-          className="bg-white p-24 desktop:p-48 hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-[12px] font-inter laptop:w-full laptop-lg:w-[95%] desktop:w-[90%]   "
+          className="bg-white p-24 desktop:p-[32px] hidden laptop:flex flex-col gap-24 shadow-side-bar rounded-[12px] font-inter laptop:w-full laptop-lg:w-[95%] desktop:w-[90%]   "
         >
           {/* Profile Section */}
           <Profile name={value.name} avatar={value.avatar} />

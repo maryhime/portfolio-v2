@@ -200,7 +200,7 @@ export default {
           900: "#570F67",
         },
         heading: "#570F67",
-        "body-text": "#7A7A7D",
+        "body-text": "#835F89",
         "background-white": "#FCFDFC",
         "background-gray": "#F8F7F7",
       },

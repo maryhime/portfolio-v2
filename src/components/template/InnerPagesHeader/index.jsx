@@ -3,6 +3,7 @@ import { ButtonComponent } from "@/components/shared/ButtonComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useHooks } from "./hook";
 import { PillsComponent } from "@/components/shared/PillsComponent";
+import { scrollToView } from "../../../utils/scrollToView";
 
 export const InnerPagesHeader = ({
   title,
@@ -20,13 +21,13 @@ export const InnerPagesHeader = ({
 
   return (
     <div
-      className={`flex flex-row justify-between gap-48 px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-[64px]  ${backgroundImage}`}
+      className={`flex sticky top-0 flex-row justify-between gap-48 px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-[64px] desktop:py-48  ${backgroundImage}`}
     >
       <div className="flex flex-row gap-24 w-full">
-        <div className={designGallery ? "pt-[8px]" : "pt-[3px]"}>
+        <div className={designGallery ? "pt-[8px] desktop:pt-16" : "pt-[3px]"}>
           <button
             key={key}
-            className={`rounded-[30px] p-[10px] shadow-side-bar w-[44px] h-[44px] flex justify-center items-center ${
+            className={`rounded-[30px] p-[10px] shadow-side-bar w-[44px] h-[44px] flex justify-center items-center  ${
               designGallery ? "bg-primary-100" : "bg-white"
             }`}
             onClick={handleNavigateBack}
@@ -43,7 +44,7 @@ export const InnerPagesHeader = ({
               <h1
                 className={
                   designGallery
-                    ? "text-title capitalize font-extrabold text-primary-900"
+                    ? "text-title capitalize desktop:text-[56px]   font-extrabold text-primary-900"
                     : "text-title capitalize font-extrabold text-white"
                 }
               >
@@ -71,8 +72,8 @@ export const InnerPagesHeader = ({
                 <h1
                   className={
                     designGallery
-                      ? "text-title capitalize font-extrabold text-primary-900"
-                      : "text-title capitalize font-extrabold text-white max-w-[80%]"
+                      ? "text-title  capitalize font-extrabold text-primary-900"
+                      : "text-title desktop:text-[56px] capitalize font-extrabold text-white max-w-[80%] desktop:max-w-[70%]"
                   }
                 >
                   {title}
@@ -82,15 +83,65 @@ export const InnerPagesHeader = ({
                 className={
                   designGallery
                     ? "text-body-text desktop:text-body-desktop"
-                    : "laptop:text-body-desktop max-w-[530px] text-[#FCFDFC]"
+                    : "laptop:text-body-desktop  max-w-[530px] desktop:max-w-none text-[#FCFDFC]"
                 }
               >
                 {subtitle}
               </p>
 
-              {/* <div className="grid">
-                <PillsComponent title={'Background'}/>
-              </div> */}
+              {/* TODO: */}
+              <div className="grid grid-flow-col auto-cols-max gap-8 [grid-template-rows:repeat(2,auto)]">
+                <PillsComponent
+                  title={"Background"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("project-overview")}
+                />
+                <PillsComponent
+                  title={"Process"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("process")}
+                />
+                <PillsComponent
+                  title={"Project Background"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("background")}
+                />
+                <PillsComponent
+                  title={"Research Analysis"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("research")}
+                />
+                <PillsComponent
+                  title={"User Personas"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("personas")}
+                />
+                <PillsComponent
+                  title={"Design Direction"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("direction")}
+                />
+                <PillsComponent
+                  title={"Wireframes"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("wireframes")}
+                />
+                <PillsComponent
+                  title={"Final Designs"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("final-designs")}
+                />
+                <PillsComponent
+                  title={"Development"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("development")}
+                />
+                <PillsComponent
+                  title={"Outcomes and Lessons"}
+                  style={`${button_style}]`}
+                  onClick={() => scrollToView("outcomes")}
+                />
+              </div>
             </>
           )}
         </div>

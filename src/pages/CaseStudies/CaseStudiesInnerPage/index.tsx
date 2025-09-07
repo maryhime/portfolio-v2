@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { CASE_STUDIES_MOCK_DATA } from "@/_mock/case-studies";
 import { InnerPagesHeader } from "@/components/template/InnerPagesHeader";
 
-
 export const CaseStudiesInnerPage = () => {
   const { id } = useParams();
   const caseStudies = CASE_STUDIES_MOCK_DATA.find(
@@ -14,7 +13,7 @@ export const CaseStudiesInnerPage = () => {
   }
 
   return (
-    <div className={"flex flex-col select-none bg-[#FCFCFC]"}>
+    <div className={"flex overflow-hidden h-screen flex-col select-none bg-[#FCFCFC]"}>
       <InnerPagesHeader
         title={caseStudies.project_name}
         subtitle={caseStudies.subtitle}
@@ -27,9 +26,8 @@ export const CaseStudiesInnerPage = () => {
         button_style={caseStudies.button_style}
       />
 
-
-    {/* content */}
-      <div className=" flex flex-col w-full">
+      {/* content */}
+      <div className="overflow-auto flex flex-col w-full">
         <section id="project-overview" className="flex flex-col gap-[32px]">
           <img
             src={`/images/case-studies/${caseStudies.project_overview}`}
@@ -79,10 +77,7 @@ export const CaseStudiesInnerPage = () => {
             className="object-cover"
           />
         </section>
-        <section
-          id="direction"
-          className="flex flex-col gap-[32px] object-cover"
-        >
+        <section className="flex flex-col gap-[32px] object-cover">
           <img
             src={`/images/case-studies/${caseStudies.design_mockup}`}
             alt=""
@@ -120,7 +115,7 @@ export const CaseStudiesInnerPage = () => {
           />
         </section>
         <section
-          id="development"
+          id="outcomes"
           className="flex flex-col gap-[32px] object-cover"
         >
           <img
