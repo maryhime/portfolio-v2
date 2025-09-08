@@ -13,7 +13,7 @@ export const CaseStudiesInnerPage = () => {
   }
 
   return (
-    <div className={"flex overflow-hidden h-screen flex-col select-none bg-[#FCFCFC]"}>
+    <div className={"flex laptop:overflow-hidden laptop:h-screen flex-col select-none bg-[#FCFCFC]"}>
       <InnerPagesHeader
         title={caseStudies.project_name}
         subtitle={caseStudies.subtitle}

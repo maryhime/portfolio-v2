@@ -5,7 +5,7 @@ import { ScrollButton } from "@/components/ScrollButton";
 
 export const RightLayout = () => {
   return (
-    <div className="  flex flex-col background-gradient w-full laptop:w-[75%]  laptop-lg:w-[80%] desktop:[w-50%] font-inter laptop:overflow-auto scroll-smooth pointer-events-auto  border-l-[1px] border-[#F8D7F0]">
+    <div className=" flex flex-col background-gradient w-full laptop:w-[75%]  laptop-lg:w-[80%] desktop:[w-50%] font-inter laptop:overflow-auto scroll-smooth pointer-events-auto  laptop:border-l-[1px] laptop:border-[#F8D7F0]">
       <ScrollButton />
       <Routes>
         <Route path="*" element={<PageNotFound />} />

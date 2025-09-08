@@ -12,7 +12,7 @@ const CaseStudiesPage = () => {
         <MainHeaderComponent
           title={"Case Studies"}
           subtitle={
-            "Case Studies that I worked on during my free time to show my workflow, design process, and how I solve problems."
+            "Case Studies that I worked on to show my workflow, design process, and how I solve problems."
           }
           style={"gap-8"}
         />

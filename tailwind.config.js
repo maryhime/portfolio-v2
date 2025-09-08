@@ -59,7 +59,7 @@ export default {
         {
           lineHeight: "1.24",
           letterSpacing: "auto",
-          fontWeight: "700",
+          fontWeight: "800",
         },
       ],
 
