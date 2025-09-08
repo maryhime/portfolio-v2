@@ -14,7 +14,7 @@ export const Navbar = ({ close }) => {
           style={navStyles}
           onClick={close}
           className={
-            "p-8 flex gap-[10px] rounded-[99px] h-button text-button uppercase w-full justify-center items-center "
+            "p-8 flex gap-[10px] rounded-[99px] h-button text-button uppercase w-full justify-center items-center text-nowrap "
           }
         >
           {nav.name}

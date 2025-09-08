@@ -160,19 +160,19 @@ export default {
         },
       ],
       "study-nav-heading": [
-        '16px',
+        "16px",
         {
           lineHeight: 1.7,
           letterSpacing: 0,
-          fontWeight: '700',
-        }
+          fontWeight: "700",
+        },
       ],
       "study-nav-body": [
-        '14px',
+        "14px",
         {
           letterSpacing: 0,
-          fontWeight: '500',
-        }
+          fontWeight: "500",
+        },
       ],
     },
     extend: {
@@ -200,7 +200,7 @@ export default {
           900: "#570F67",
         },
         heading: "#570F67",
-        "body-text": "#7A7A7D",
+        "body-text": "#835F89",
         "background-white": "#FCFDFC",
         "background-gray": "#F8F7F7",
       },
@@ -214,6 +214,7 @@ export default {
       },
       backgroundImage: {
         vcg: "url('/images/case-studies/thumbnails/header-bg-vcg.png')",
+        lfc: "url('/images/case-studies/thumbnails/header-bg-lfc.jpg')",
       },
     },
   },

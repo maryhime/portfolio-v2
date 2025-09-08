@@ -24,10 +24,11 @@ export const WebDesignInnerPage = () => {
         link={design.link}
         external_link={design.hasLink}
         key={design.id}
+        color_theme={'#D753BD'}
       />
 
-      <div className="px-24 pb-48 tablet:px-48 tablet:pb-48 laptop:pb-64 laptop:px-48 flex flex-col gap-[32px]">
-        <div className="flex gap-48">
+      <div className="px-24 pb-48 tablet:px-48 tablet:pb-48 laptop:pb-64 laptop:px-64 flex flex-col gap-[32px]">
+        <div className="flex gap-48 flex-col tablet:flex-row">
           <div className="flex flex-col gap-16 w-full">
             <h3 className="text-heading-study font-extrabold text-primary-900 uppercase">
               Color Scheme
@@ -55,7 +56,7 @@ export const WebDesignInnerPage = () => {
             <h3 className="text-heading-study font-extrabold text-primary-900 uppercase">
               Typography
             </h3>
-            <div className="flex gap-8 justify-between items-center">
+            <div className="flex flex-col tablet:flex-row gap-8 justify-between items-center">
               <img
                 src={`/images/design-gallery/typography/${design.typography}`}
                 alt=""
