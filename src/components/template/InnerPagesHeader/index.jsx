@@ -21,9 +21,9 @@ export const InnerPagesHeader = ({
 
   return (
     <div
-      className={`flex sticky top-0 flex-row justify-between gap-48 px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-[64px] desktop:py-48  ${backgroundImage}`}
+      className={`flex flex-col tablet:flex-row laptop:sticky laptop:top-0  justify-between gap-16 px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-[64px] desktop:py-48  ${backgroundImage}`}
     >
-      <div className="flex flex-row gap-24 w-full">
+      <div className="flex flex-col laptop:flex-row gap-24 w-full">
         <div className={designGallery ? "pt-[8px] desktop:pt-16" : "pt-[3px]"}>
           <button
             key={key}
@@ -73,7 +73,7 @@ export const InnerPagesHeader = ({
                   className={
                     designGallery
                       ? "text-title  capitalize font-extrabold text-primary-900"
-                      : "text-title desktop:text-[56px] capitalize font-extrabold text-white max-w-[80%] desktop:max-w-[70%]"
+                      : "text-title-phone laptop:text-title desktop:text-[56px] capitalize font-extrabold text-white laptop:max-w-[80%] desktop:max-w-[70%]"
                   }
                 >
                   {title}
@@ -90,24 +90,24 @@ export const InnerPagesHeader = ({
               </p>
 
               {/* TODO: */}
-              <div className="grid grid-flow-col auto-cols-max gap-8 [grid-template-rows:repeat(2,auto)]">
+              <div className="mt-[6px] hidden laptop:grid grid-flow-col auto-cols-max gap-8 tablet:[grid-template-rows:repeat(3,auto)] laptop:[grid-template-rows:repeat(2,auto)]">
                 <PillsComponent
-                  title={"Background"}
+                  title={"Overview"}
                   style={`${button_style}]`}
                   onClick={() => scrollToView("project-overview")}
                 />
                 <PillsComponent
-                  title={"Process"}
+                  title={"Design Process"}
                   style={`${button_style}]`}
                   onClick={() => scrollToView("process")}
                 />
                 <PillsComponent
-                  title={"Project Background"}
+                  title={" Background"}
                   style={`${button_style}]`}
                   onClick={() => scrollToView("background")}
                 />
                 <PillsComponent
-                  title={"Research Analysis"}
+                  title={"Research"}
                   style={`${button_style}]`}
                   onClick={() => scrollToView("research")}
                 />
@@ -137,7 +137,7 @@ export const InnerPagesHeader = ({
                   onClick={() => scrollToView("development")}
                 />
                 <PillsComponent
-                  title={"Outcomes and Lessons"}
+                  title={"Outcomes"}
                   style={`${button_style}]`}
                   onClick={() => scrollToView("outcomes")}
                 />
@@ -148,7 +148,7 @@ export const InnerPagesHeader = ({
       </div>
 
       {hasButton ? (
-        <div className="w-fit mt-8">
+        <div className="w-fit laptop:mt-8">
           <ButtonComponent
             title={"Website Link"}
             external_link={external_link}

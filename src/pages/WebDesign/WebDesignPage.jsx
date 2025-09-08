@@ -7,7 +7,7 @@ import { WEB_DESIGN } from "@/_mock/web-design";
 const WebDesignPage = () => {
   return (
     <div className="phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 flex flex-col w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 desktop:p-64 desktop:gap-[32px]">
-      <div className=" flex flex-col laptop:gap-64 desktop:gap-48">
+      <div className=" flex flex-col gap-48 laptop:gap-64 desktop:gap-48">
         <MainHeaderComponent
           title={<>Website and UI Design Gallery</>}
           subtitle={

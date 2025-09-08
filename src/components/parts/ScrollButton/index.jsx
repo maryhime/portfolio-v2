@@ -33,7 +33,7 @@ export const ScrollButton = () => {
 
   return (
     <IconButtonComponent
-      style="laptop:hidden sticky top-[90%] left-full shadow-lg"
+      style="hidden sticky top-[90%] left-full shadow-lg"
       icon={showTop ? faChevronUp : faChevronDown}
       size="w-[55px] h-[55px]"
       iconSize="lg"

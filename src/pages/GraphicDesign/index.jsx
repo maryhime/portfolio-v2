@@ -6,7 +6,7 @@ import GraphicDesignCard from "@/components/shared/GraphicDesignCard";
 const GraphicDesignPage = () => {
   return (
     <div className="flex flex-col phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 desktop:gap-[32px]">
-      <div className="flex flex-col laptop:gap-64 desktop:gap-48 w-full ">
+      <div className="flex flex-col gap-48 laptop:gap-64 desktop:gap-48 w-full ">
         <MainHeaderComponent
           title={"Graphic Design"}
           subtitle={
@@ -43,7 +43,7 @@ const GraphicDesignPage = () => {
           ))}
         </div>
         {/* mobile */}
-        <div className="grid grid-cols-1 tablet:grid-cols-2 gap-24 laptop:hidden">
+        <div className="grid grid-cols-1 tablet:grid-cols-2 gap-[32px] tablet:gap-24 laptop:hidden">
           {GRAPHIC_DESIGN.map((value, index) => (
             <CardContainerComponent key={index}>
               <GraphicDesignCard

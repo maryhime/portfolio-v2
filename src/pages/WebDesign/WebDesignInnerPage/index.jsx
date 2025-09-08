@@ -14,7 +14,7 @@ export const WebDesignInnerPage = () => {
   }
 
   return (
-    <div className={"flex flex-col gap-48  select-none bg-[#FCFCFC]"}>
+    <div className={"flex flex-col gap-48 select-none bg-[#FCFCFC]"}>
       <InnerPagesHeader
         title={design.project_name}
         subtitle={design.type}
@@ -28,7 +28,7 @@ export const WebDesignInnerPage = () => {
       />
 
       <div className="px-24 pb-48 tablet:px-48 tablet:pb-48 laptop:pb-64 laptop:px-64 flex flex-col gap-[32px]">
-        <div className="flex gap-48 flex-col tablet:flex-row">
+        <div className="flex gap-48 flex-col laptop:flex-row">
           <div className="flex flex-col gap-16 w-full">
             <h3 className="text-heading-study font-extrabold text-primary-900 uppercase">
               Color Scheme
@@ -56,7 +56,7 @@ export const WebDesignInnerPage = () => {
             <h3 className="text-heading-study font-extrabold text-primary-900 uppercase">
               Typography
             </h3>
-            <div className="flex flex-col tablet:flex-row gap-8 justify-between items-center">
+            <div className="flex flex-col tablet:flex-row gap-8 justify-between laptop:items-center">
               <img
                 src={`/images/design-gallery/typography/${design.typography}`}
                 alt=""
@@ -83,8 +83,8 @@ export const WebDesignInnerPage = () => {
               <div
                 className={
                   design.has_more_than_2_image
-                    ? `p-24 border rounded-card w-full grid grid-cols-4 gap-16  ${design.color_bg}`
-                    : `p-24 border rounded-card w-full grid grid-cols-2 gap-16  ${design.color_bg}`
+                    ? `p-16 laptop:p-24 border rounded-card w-full grid grid-cols-1 tablet:grid-cols-3 laptop:grid-cols-4 gap-24 laptop:gap-16  ${design.color_bg}`
+                    : `p-16 tablet:grid-cols-3 laptop:p-24 border rounded-card w-full flex flex-col tablet:grid laptop:grid-cols-2 gap-24 laptop:gap-16  ${design.color_bg}`
                 }
               >
                 {design.design_image.map((value) => (
@@ -100,7 +100,7 @@ export const WebDesignInnerPage = () => {
               </div>
             ) : (
               <div
-                className={`p-48 border rounded-card w-full ${design.color_bg}`}
+                className={`p-16 laptop:p-48 border rounded-card w-full ${design.color_bg}`}
               >
                 <div className="relative inline-block group">
                   <img
