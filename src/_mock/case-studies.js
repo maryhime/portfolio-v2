@@ -11,20 +11,45 @@ export const CASE_STUDIES_MOCK_DATA = [
     color_theme: "#CC7C57",
 
     project_overview: "lfc/lfc-project-overview.jpg",
+    project_overview_mobile: "vcg/parts/vcg-project-overview-m.jpg",
+
     design_process: "vcg/parts/vcg-design-process.jpg",
+    design_process_mobile: "vcg/parts/vcg-design-process-m.jpg",
+
     project_background: "vcg/parts/vcg-project-background.jpg",
+    project_background_mobile: "vcg/parts/vcg-project-background-m.jpg",
+
     research_analysis: "vcg/parts/vcg-research.jpg",
+    research_analysis_mobile: "vcg/parts/vcg-research-m.jpg",
+
     user_persona: [
       "vcg/parts/vcg-user-persona-overview.png",
       "vcg/parts/vcg-user-persona-1.jpg",
       "vcg/parts/vcg-user-persona-2.jpg",
     ],
+    user_persona_mobile: [
+      "vcg/parts/vcg-user-persona-overview-m.png",
+      "vcg/parts/vcg-user-persona-1-m.jpg",
+      "vcg/parts/vcg-user-persona-2-m.jpg",
+    ],
+
     design_direction: "vcg/parts/vcg-design-direction.jpg",
+    design_direction_mobile: "vcg/parts/vcg-design-direction.jpg-m",
+
     design_mockup: "vcg/parts/vcg-mockup.jpg",
+    design_mockup_mobile: "vcg/parts/vcg-mockup.jpg-m",
+
     wireframes: "vcg/parts/vcg-wireframes.jpg",
+    wireframes_mobile: "vcg/parts/vcg-wireframes.jpg-m",
+
     final_designs: "vcg/parts/vcg-final-designs.jpg",
+    final_designs_mobile: "vcg/parts/vcg-final-designs.jpg-m",
+
     development: "vcg/parts/vcg-development.jpg",
+    development_mobile: "vcg/parts/vcg-development.jpg-m",
+
     outcomes: "vcg/parts/vcg-outcomes.jpg",
+    outcomes_mobile: "vcg/parts/vcg-outcomes.jpg-m",
   },
   {
     id: 2,
@@ -38,20 +63,45 @@ export const CASE_STUDIES_MOCK_DATA = [
     color_theme: "#4691FB",
 
     project_overview: "vcg/parts/vcg-project-overview.jpg",
+    project_overview_mobile: "vcg/parts/vcg-project-overview-m.jpg",
+
     design_process: "vcg/parts/vcg-design-process.jpg",
+    design_process_mobile: "vcg/parts/vcg-design-process-m.jpg",
+
     project_background: "vcg/parts/vcg-project-background.jpg",
+    project_background_mobile: "vcg/parts/vcg-project-background-m.jpg",
+
     research_analysis: "vcg/parts/vcg-research.jpg",
+    research_analysis_mobile: "vcg/parts/vcg-research-m.jpg",
+
     user_persona: [
       "vcg/parts/vcg-user-persona-overview.png",
       "vcg/parts/vcg-user-persona-1.jpg",
       "vcg/parts/vcg-user-persona-2.jpg",
     ],
+    user_persona_mobile: [
+      "vcg/parts/vcg-user-persona-overview-m.png",
+      "vcg/parts/vcg-user-persona-1-m.jpg",
+      "vcg/parts/vcg-user-persona-2-m.jpg",
+    ],
+
     design_direction: "vcg/parts/vcg-design-direction.jpg",
+    design_direction_mobile: "vcg/parts/vcg-design-direction.jpg-m",
+
     design_mockup: "vcg/parts/vcg-mockup.jpg",
+    design_mockup_mobile: "vcg/parts/vcg-mockup.jpg-m",
+
     wireframes: "vcg/parts/vcg-wireframes.jpg",
+    wireframes_mobile: "vcg/parts/vcg-wireframes.jpg-m",
+
     final_designs: "vcg/parts/vcg-final-designs.jpg",
+    final_designs_mobile: "vcg/parts/vcg-final-designs.jpg-m",
+
     development: "vcg/parts/vcg-development.jpg",
+    development_mobile: "vcg/parts/vcg-development.jpg-m",
+
     outcomes: "vcg/parts/vcg-outcomes.jpg",
+    outcomes_mobile: "vcg/parts/vcg-outcomes.jpg-m",
   },
 ];
 

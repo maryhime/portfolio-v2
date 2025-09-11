@@ -38,7 +38,18 @@ export const CaseStudiesInnerPage = () => {
       // }
     >
       {scrollProgress ? (
-        "NEW SCROLL HEADER"
+        <InnerPagesHeader
+          title={caseStudies.project_name}
+          subtitle={caseStudies.subtitle}
+          hasButton={true}
+          designGallery={false}
+          backgroundImage={caseStudies.header_bg}
+          external_link={true}
+          link={caseStudies.project_link}
+          color_theme={caseStudies.color_theme}
+          button_style={caseStudies.button_style}
+          scrollHeader={true}
+        />
       ) : (
         <InnerPagesHeader
           title={caseStudies.project_name}
@@ -59,7 +70,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.project_overview}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.project_overview_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
 
@@ -67,7 +83,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.design_process}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.design_process_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
 
@@ -75,7 +96,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.project_background}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.project_background_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
 
@@ -83,7 +109,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.research_analysis}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.research_analysis_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
 
@@ -92,7 +123,14 @@ export const CaseStudiesInnerPage = () => {
             <img
               src={`/images/case-studies/${value}`}
               alt=""
-              className="object-cover"
+              className="object-cover hidden tablet:block"
+            />
+          ))}
+          {caseStudies.user_persona_mobile.map((value) => (
+            <img
+              src={`/images/case-studies/${value}`}
+              alt=""
+              className="object-cover tablet:hidden"
             />
           ))}
         </section>
@@ -101,14 +139,24 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.design_direction}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.design_direction_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
         <section className="flex flex-col gap-[32px] object-cover">
           <img
             src={`/images/case-studies/${caseStudies.design_mockup}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.design_mockup_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
         <section
@@ -118,7 +166,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.wireframes}`}
             alt=""
-            className="object-cover"
+           className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.wireframes_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
         <section
@@ -128,7 +181,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.final_designs}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.final_designs_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
         <section
@@ -138,7 +196,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.development}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.development_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
         <section
@@ -148,7 +211,12 @@ export const CaseStudiesInnerPage = () => {
           <img
             src={`/images/case-studies/${caseStudies.outcomes}`}
             alt=""
-            className="object-cover"
+            className="object-cover hidden tablet:block"
+          />
+          <img
+            src={`/images/case-studies/${caseStudies.outcomes_mobile}`}
+            alt=""
+            className="object-cover tablet:hidden"
           />
         </section>
       </div>
