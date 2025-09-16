@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { MainLayout } from "./layout/MainLayout.js";
 import { WebDesignInnerPage } from "./pages/WebDesign/WebDesignInnerPage/index.jsx";
 import { WebDesignMainLayout } from "./layout/WebDesignMainLayout.js";
-import { CaseStudiesInnerPage } from "./pages/CaseStudies/CaseStudiesInnerPage/index.js";
+import { CaseStudiesInnerPage } from "./pages/CaseStudies/CaseStudiesInnerPage/index.jsx";
 import { CaseStudiesMainLayout } from "./layout/CaseStudiesMainLayout.js";
 
 import { PageNotFound } from "./components/PageNotFound.jsx";

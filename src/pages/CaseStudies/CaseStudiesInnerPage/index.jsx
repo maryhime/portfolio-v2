@@ -1,0 +1,218 @@
+import {useParams} from "react-router-dom";
+import {CASE_STUDIES_MOCK_DATA} from "@/_mock/case-studies";
+import {InnerPagesHeader} from "@/components/template/InnerPagesHeader";
+import {useState, useEffect, useRef} from "react";
+
+export const CaseStudiesInnerPage = () => {
+    const {id} = useParams();
+    const [scrollY, setScrollY] = useState(0);
+    const scrollContainerRef = useRef(null);
+
+    const caseStudies = CASE_STUDIES_MOCK_DATA.find(
+        (item) => item.id === Number(id) // convert param to number
+    );
+
+    useEffect(() => {
+        const el = scrollContainerRef.current;
+        if (!el) return;
+
+        const handleScroll = () => {
+            setScrollY(el.scrollTop); // ✅ use container scroll
+        };
+
+        el.addEventListener("scroll", handleScroll);
+        return () => el.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    if (!caseStudies) {
+        return <div>Design not found</div>;
+    }
+
+    const scrollProgress = Math.min(scrollY / 200, 1);
+
+    return (
+        <div className="flex laptop:overflow-hidden laptop:h-screen flex-col select-none bg-[#FCFCFC]">
+            {scrollProgress ? (
+                <InnerPagesHeader
+                    title={caseStudies.project_name}
+                    subtitle={caseStudies.subtitle}
+                    hasButton={true}
+                    designGallery={false}
+                    backgroundImage={caseStudies.header_bg}
+                    external_link={true}
+                    link={caseStudies.project_link}
+                    color_theme={caseStudies.color_theme}
+                    button_style={caseStudies.button_style}
+                    scrollHeader={true}
+                />
+            ) : (
+                <InnerPagesHeader
+                    title={caseStudies.project_name}
+                    subtitle={caseStudies.subtitle}
+                    hasButton={true}
+                    designGallery={false}
+                    backgroundImage={caseStudies.header_bg}
+                    external_link={true}
+                    link={caseStudies.project_link}
+                    color_theme={caseStudies.color_theme}
+                    button_style={caseStudies.button_style}
+                />
+            )}
+
+            {/* content */}
+            <div
+                ref={scrollContainerRef}
+                className="overflow-auto flex flex-col w-full"
+            >
+                <section id="project-overview" className="flex flex-col gap-[32px]">
+                    <img
+                        src={`/images/case-studies/${caseStudies.project_overview}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.project_overview_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="process" className="flex flex-col gap-24">
+                    <img
+                        src={`/images/case-studies/${caseStudies.design_process}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.design_process_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="background" className="flex flex-col gap-[32px]">
+                    <img
+                        src={`/images/case-studies/${caseStudies.project_background}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.project_background_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="research" className="flex flex-col gap-[32px]">
+                    <img
+                        src={`/images/case-studies/${caseStudies.research_analysis}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.research_analysis_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="personas" className="flex flex-col gap-[32px]">
+                    {caseStudies.user_persona.map((value, i) => (
+                        <img
+                            key={i}
+                            src={`/images/case-studies/${value}`}
+                            alt=""
+                            className="object-cover hidden tablet:block"
+                        />
+                    ))}
+                    {caseStudies.user_persona_mobile.map((value, i) => (
+                        <img
+                            key={i}
+                            src={`/images/case-studies/${value}`}
+                            alt=""
+                            className="object-cover tablet:hidden"
+                        />
+                    ))}
+                </section>
+
+                <section id="direction" className="flex flex-col gap-[32px]">
+                    <img
+                        src={`/images/case-studies/${caseStudies.design_direction}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.design_direction_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section className="flex flex-col gap-[32px] object-cover">
+                    <img
+                        src={`/images/case-studies/${caseStudies.design_mockup}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.design_mockup_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="wireframes" className="flex flex-col gap-[32px] object-cover">
+                    <img
+                        src={`/images/case-studies/${caseStudies.wireframes}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.wireframes_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="final-designs" className="flex flex-col gap-[32px] object-cover">
+                    <img
+                        src={`/images/case-studies/${caseStudies.final_designs}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.final_designs_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="development" className="flex flex-col gap-[32px] object-cover">
+                    <img
+                        src={`/images/case-studies/${caseStudies.development}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.development_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+
+                <section id="outcomes" className="flex flex-col gap-[32px] object-cover">
+                    <img
+                        src={`/images/case-studies/${caseStudies.outcomes}`}
+                        alt=""
+                        className="object-cover hidden tablet:block"
+                    />
+                    <img
+                        src={`/images/case-studies/${caseStudies.outcomes_mobile}`}
+                        alt=""
+                        className="object-cover tablet:hidden"
+                    />
+                </section>
+            </div>
+        </div>
+    );
+};
