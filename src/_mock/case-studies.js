@@ -7,7 +7,7 @@ export const CASE_STUDIES_MOCK_DATA = [
     project_link: "https://virtualchamps.com/",
     header_bg: 'bg-lfc bg-cover no-repeat',
 
-    button_style: "!bg-[#CC7C57] hover:!bg-[#AF5B3F]",
+    button_style: "!bg-[#CC7C57] hover:!bg-[#AF5B3F] hover:cursor-pointer",
     color_theme: "#CC7C57",
 
     project_overview: "lfc/lfc-project-overview.jpg",

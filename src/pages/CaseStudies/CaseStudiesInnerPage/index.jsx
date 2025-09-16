@@ -28,7 +28,6 @@ export const CaseStudiesInnerPage = () => {
         return <div>Design not found</div>;
     }
 
-    // normalize: 0 = top, 1 = scrolled 200px (cap at 1)
     const scrollProgress = Math.min(scrollY / 200, 1);
 
     return (
