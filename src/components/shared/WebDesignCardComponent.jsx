@@ -8,8 +8,6 @@ export const WebDesignCardComponent = ({
   link,
   hasInnerPage,
 }) => {
-  console.log("title : ", title);
-  console.log("hasInnerPage : ", hasInnerPage);
 
   return (
     <NavLink
