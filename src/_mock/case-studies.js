@@ -75,12 +75,12 @@ export const CASE_STUDIES_MOCK_DATA = [
     research_analysis_mobile: "lfc/lfc-research-m.jpg",
 
     user_persona: [
-      "lfc/lfc-user-persona-overview.png",
+      "lfc/lfc-user-persona-overview.jpg",
       "lfc/lfc-user-persona-1.jpg",
       "lfc/lfc-user-persona-2.jpg",
     ],
     user_persona_mobile: [
-      "lfc/lfc-user-persona-overview-m.png",
+      "lfc/lfc-user-persona-overview-m.jpg",
       "lfc/lfc-user-persona-1-m.jpg",
       "lfc/lfc-user-persona-2-m.jpg",
     ],
