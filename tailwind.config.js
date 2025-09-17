@@ -59,7 +59,7 @@ export default {
         {
           lineHeight: "1.24",
           letterSpacing: "auto",
-          fontWeight: "700",
+          fontWeight: "800",
         },
       ],
 
@@ -72,21 +72,27 @@ export default {
         },
       ],
       "heading-study": [
-        "24px",
+        "22px",
         {
-          lineHeight: "normal",
+          lineHeight: "27px",
           letterSpacing: "auto",
-          fontWeight: "600",
-
+          fontWeight: "700",
+        },
+      ],
+      "heading-study-sm": [
+        "18px",
+        {
+          lineHeight: "19px",
+          letterSpacing: "auto",
+          fontWeight: "700",
         },
       ],
       "body-study": [
-        "20px",
+        "16px",
         {
           lineHeight: "1.5",
           letterSpacing: "auto",
           fontWeight: "500",
-
         },
       ],
       category: [
@@ -145,7 +151,7 @@ export default {
           fontWeight: "800",
         },
       ],
-      'case-study-card': [
+      "case-study-card": [
         "24px",
         {
           lineHeight: "1.40",
@@ -153,9 +159,35 @@ export default {
           fontWeight: "800",
         },
       ],
+      "study-nav-heading": [
+        "16px",
+        {
+          lineHeight: 1.7,
+          letterSpacing: 0,
+          fontWeight: "700",
+        },
+      ],
+      "study-nav-body": [
+        "14px",
+        {
+          letterSpacing: 0,
+          fontWeight: "500",
+        },
+      ],
     },
     extend: {
       colors: {
+        // primary: {
+        //   100: "#EFE0F4",
+        //   200: "#E2C7EB",
+        //   300: "#D4ACE2",
+        //   400: "#C950F2",
+        //   500: "#9A34BB",
+        //   600: "#8207AB",
+        //   700: "#5D057A",
+        //   800: "#430458",
+        //   900: "#2D033B",
+        // },
         primary: {
           100: "#FDDDEB",
           200: "#FBBDDD",
@@ -168,11 +200,12 @@ export default {
           900: "#570F67",
         },
         heading: "#570F67",
-        "body-text": "#7A7A7D",
+        "body-text": "#835F89",
         "background-white": "#FCFDFC",
         "background-gray": "#F8F7F7",
       },
       boxShadow: {
+        // card: "9px 11px 0px rgba(201, 86, 241, 0.25);",
         card: "9px 11px 0px 0px rgba(312, 62, 58, 0.25)",
         "side-bar": "0px 0px 23px 0px rgba(192, 129, 193, 0.15)",
       },
@@ -181,6 +214,7 @@ export default {
       },
       backgroundImage: {
         vcg: "url('/images/case-studies/thumbnails/header-bg-vcg.png')",
+        lfc: "url('/images/case-studies/thumbnails/header-bg-lfc.jpg')",
       },
     },
   },

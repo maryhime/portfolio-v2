@@ -1,37 +1,36 @@
-import React, { Fragment } from "react";
-import { MainHeaderComponent } from "../../components/general/MainHeaderComponent";
-import { WebDesignCardComponent } from "../../components/general/WebDesignCardComponent";
-import { WEB_DESIGN } from "../../utils/data";
-import { CardContainerComponent } from "../../components/general/CardContainerComponent";
+import { MainHeaderComponent } from "@/components/shared/MainHeaderComponent";
+import { WebDesignCardComponent } from "@/components/shared/WebDesignCardComponent";
+import { CardContainerComponent } from "@/components/shared/CardContainerComponent";
+import { Outlet } from "react-router-dom";
+import { WEB_DESIGN } from "@/_mock/web-design";
 
 const WebDesignPage = () => {
   return (
-    <div className="phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 flex flex-col w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 ">
-      <div className=" flex flex-col gap-64">
+    <div className="phone-lg:flex-row laptop:gap-48 laptop-lg:gap-64 flex flex-col w-full px-24 py-48 tablet:px-48 tablet:py-48 laptop:py-64 laptop:px-48 desktop:p-64 desktop:gap-[32px]">
+      <div className=" flex flex-col gap-48 laptop:gap-64 desktop:gap-48">
         <MainHeaderComponent
-          title={
-            <>
-              Website and UI <br /> Design Gallery
-            </>
-          }
+          title={<>Website and UI Design Gallery</>}
           subtitle={
             <>
-              Website Pages and applications that I  have created <br /> during the course of my career and free time.
+              Website Pages and applications that I have created during my career and free time.
             </>
           }
         />
 
-        <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden">
-          {WEB_DESIGN.slice(0, 6).map((value, index) => (
+        <div className="desktop:flex laptop:flex-col laptop:gap-48 hidden desktop:gap-[32px]">
+          {WEB_DESIGN.slice(0, 7).map((value) => (
             <CardContainerComponent
-              key={index}
+              key={value.id}
               style={"hover:text-primary-500"}
             >
               <WebDesignCardComponent
+                id={value.id}
+                dev_only={value.dev_only}
                 title={value.title}
                 category={value.desc}
                 image={value.image}
                 link={value.link}
+                hasInnerPage={value.hasInnerPage}
               />
             </CardContainerComponent>
           ))}
@@ -39,13 +38,15 @@ const WebDesignPage = () => {
 
         {/* laptop */}
         <div className="laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden hidden">
-          {WEB_DESIGN.slice(0, 11).map((value, index) => (
-            <CardContainerComponent key={index}>
+          {WEB_DESIGN.slice(0, 11).map((value) => (
+            <CardContainerComponent key={value.id}>
               <WebDesignCardComponent
+                id={value.id}
                 title={value.title}
                 category={value.desc}
                 image={value.image}
                 link={value.link}
+                hasInnerPage={value.hasInnerPage}
               />
             </CardContainerComponent>
           ))}
@@ -53,16 +54,18 @@ const WebDesignPage = () => {
 
         {/* mobile */}
         <div className="tablet:grid-cols-2 laptop:hidden grid grid-cols-1 gap-24">
-          {WEB_DESIGN.map((value, index) => (
+          {WEB_DESIGN.map((value) => (
             <CardContainerComponent
-              key={index}
+              key={value.id}
               style={"hover:text-primary-500"}
             >
               <WebDesignCardComponent
+                id={value.id}
                 title={value.title}
                 category={value.desc}
                 image={value.image}
                 link={value.link}
+                hasInnerPage={value.hasInnerPage}
               />
             </CardContainerComponent>
           ))}
@@ -72,42 +75,58 @@ const WebDesignPage = () => {
       {/* laptop */}
       <div className=" laptop:flex laptop:flex-col laptop:gap-48 desktop:hidden hidden">
         {WEB_DESIGN.slice(11, 22).map((value, index) => (
-          <CardContainerComponent key={index} style={"hover:text-primary-500"}>
+          <CardContainerComponent
+            key={value.id}
+            style={"hover:text-primary-500"}
+          >
             <WebDesignCardComponent
+              id={value.id}
               title={value.title}
               category={value.desc}
               image={value.image}
               link={value.link}
+              hasInnerPage={value.hasInnerPage}
             />
           </CardContainerComponent>
         ))}
       </div>
 
       {/* desktop */}
-      <div className=" desktop:flex desktop:flex-col desktop:gap-48 hidden">
-        {WEB_DESIGN.slice(6, 12).map((value, index) => (
-          <CardContainerComponent key={index} style={"hover:text-primary-500"}>
+      <div className=" desktop:flex desktop:flex-col hidden desktop:gap-[32px]">
+        {WEB_DESIGN.slice(7, 15).map((value, index) => (
+          <CardContainerComponent
+            key={value.id}
+            style={"hover:text-primary-500"}
+          >
             <WebDesignCardComponent
+              id={value.id}
               title={value.title}
               category={value.desc}
               image={value.image}
               link={value.link}
+              hasInnerPage={value.hasInnerPage}
             />
           </CardContainerComponent>
         ))}
       </div>
-      <div className=" desktop:flex desktop:flex-col desktop:gap-48 hidden">
-        {WEB_DESIGN.slice(12, 16).map((value, index) => (
-          <CardContainerComponent key={index} style={"hover:text-primary-500"}>
+      <div className=" desktop:flex desktop:flex-col desktop:gap-[32px] hidden">
+        {WEB_DESIGN.slice(15, 22).map((value, index) => (
+          <CardContainerComponent
+            key={value.id}
+            style={"hover:text-primary-500"}
+          >
             <WebDesignCardComponent
+              id={value.id}
               title={value.title}
               category={value.desc}
               image={value.image}
               link={value.link}
+              hasInnerPage={value.hasInnerPage}
             />
           </CardContainerComponent>
         ))}
       </div>
+      <Outlet />
     </div>
   );
 };

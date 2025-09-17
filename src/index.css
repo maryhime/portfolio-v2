@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer {
+  .html{
+    scroll-behavior: smooth;
+  }
   .background-gradient {
     background: linear-gradient(115.78deg, #fdfcfd 0%, #fff0f9 65.82%);
   }
