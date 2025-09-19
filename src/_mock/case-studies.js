@@ -56,7 +56,7 @@ export const CASE_STUDIES_MOCK_DATA = [
     project_name: "From Clicks to Trust: A Law Firm Redesign",
     subtitle:
       "Creating a polished, user-friendly site to highlight services & build credibility.",
-    project_link: "https://virtualchamps.com/",
+    project_link: "https://lawfirmcat.com/",
     header_bg: "bg-lfc bg-cover no-repeat",
 
     button_style: "!bg-[#CC7C57] hover:!bg-[#AF5B3F] hover:cursor-pointer",
