@@ -10,7 +10,7 @@ const GraphicDesignPage = () => {
         <MainHeaderComponent
           title={"Graphic Design"}
           subtitle={
-            "Recent Digital Illustrations that I created both freelance and personal artworks."
+            "Graphic Designs that I created as exercise for bootcamps and other things."
           }
           style={"w-full"}
         />
